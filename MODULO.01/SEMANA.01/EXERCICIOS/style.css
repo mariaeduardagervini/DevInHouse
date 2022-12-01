@@ -13,26 +13,29 @@ h1 {
     background-position: center;
     background-size: cover;
 }
-.menu {
+nav {
     overflow: hidden;
     position: fixed;
     width: 100%;
     background-color: rgb(245, 189, 8);
 }
-.menu img {
+nav > img {
     width: 40px;
-    position: fixed;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 4px;
+    position: relative;
 }
-.menu a {
+nav > a {
     background-color: rgb(245, 189, 8);
     float: left;
-    display: block;
-    text-align: left;
+    display: fixed;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-.menu a:hover {
+nav > a:hover {
     background-color: rgb(247, 247, 104);
     color: rgb(71, 38, 38);
 }
