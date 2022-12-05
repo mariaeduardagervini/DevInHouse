@@ -2,6 +2,11 @@
 * {
     background-color: rgb(255, 255, 199);
 }
+body {
+    display: flex;
+    flex-direction: column;
+
+}
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -12,32 +17,41 @@ h1 {
     height: 100px;
     background-position: center;
     background-size: cover;
+
 }
-nav {
+
+.menu {
+    background-color: rgb(245, 189, 8);
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: rgb(245, 189, 8);
 }
-nav > img {
+
+.imagem {
+    overflow: hidden;
+    position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    overflow: hidden;
-    margin: 4px;
-    position: relative;
 }
-nav > a {
-    background-color: rgb(245, 189, 8);
-    float: left;
-    display: fixed;
-    padding: 14px 16px;
-    text-decoration: none;
+.icones {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    gap: 15px;
+    margin: 15px;
     font-size: 17px;
+    list-style: none;
+    background-color: rgb(245, 189, 8);
 }
-nav > a:hover {
-    background-color: rgb(247, 247, 104);
+div a:link,div a:visited,div a:active {
+    background-color: rgb(245, 189, 8);
+    text-decoration: none;
     color: rgb(71, 38, 38);
+}
+div a:hover {
+    background-color: rgb(255, 255, 113);
+    transition-duration: 300ms;
 }
 p {
     font-size: 14px;
@@ -51,5 +65,11 @@ button {
 }
 img {
     width: 60px;
+}
+footer {
+    color:rgb(71, 38, 38);
+    text-align: justify;
+    line-height: 30px;
+    
 }
 
