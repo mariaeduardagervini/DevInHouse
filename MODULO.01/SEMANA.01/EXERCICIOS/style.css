@@ -1,12 +1,21 @@
 @charset "UTF-8";
-* {
-    background-color: rgb(255, 255, 199);
+html,
+body,
+div,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+   
 }
 body {
-    display: flex;
-    flex-direction: column;
-
+    min-height: 100vh;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 199);
+    margin: 10px;
 }
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -14,62 +23,95 @@ h1 {
     text-align: center;
     background-image: url(imagens/h1image.jpg);
     background-repeat: no-repeat;
-    height: 100px;
     background-position: center;
     background-size: cover;
-
+    height: 50px;
+    padding: 10px;
+}
+p {
+    font-size: 14px;
 }
 
-.menu {
-    background-color: rgb(245, 189, 8);
-    overflow: hidden;
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
     position: fixed;
-    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(245, 189, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-.imagem {
-    overflow: hidden;
-    position: absolute;
+nav img#logo {
+    display: block;
+    margin: 0;
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-.icones {
+nav ul {
     display: flex;
-    justify-content: left;
-    align-items: flex-end;
     gap: 15px;
     margin: 15px;
     font-size: 17px;
     list-style: none;
-    background-color: rgb(245, 189, 8);
+
 }
-div a:link,div a:visited,div a:active {
+nav ul li a {
+    color: rgb(71, 38, 38);;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+li a:link,
+li a:visited,
+li a:active {
     background-color: rgb(245, 189, 8);
     text-decoration: none;
     color: rgb(71, 38, 38);
 }
-div a:hover {
+nav ul li a:hover {
     background-color: rgb(255, 255, 113);
-    transition-duration: 300ms;
-}
-p {
-    font-size: 14px;
-    padding-top: 70px;
+    transition: all 300ms;
 }
 button {
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(71, 38, 38);;
     border-radius: 10px;
     margin-top: 20px;
+    cursor: pointer;
 }
-img {
-    width: 60px;
+button img {
+    max-width: 50px;
+}
+
+div#imagens {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+div#imagens img {
+    max-width: 300px;
+    display: block;
+}
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 footer {
-    color:rgb(71, 38, 38);
+    color: rgb(71, 38, 38);
+    background-color:rgb(245, 189, 8);
     text-align: justify;
     line-height: 30px;
-    
+    padding: 10px;
 }
 
