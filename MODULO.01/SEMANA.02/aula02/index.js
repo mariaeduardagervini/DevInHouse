@@ -1,1 +1,3 @@
-alert ('Olá');
+var minhaPrimeiraVariavel = 'Olá JS';
+
+console.log(minhaPrimeiraVariavel);
