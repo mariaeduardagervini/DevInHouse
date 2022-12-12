@@ -15,9 +15,9 @@
 <p>
     <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/">Semana 2</a>
     <ul>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA02">Aula 02</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/aula02">Aula 02</a></li>
         <li>Aula 03</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04Aula 04">Aula 04</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04">Aula 04</a></li>
         <li>Aula 05</li>
         <li>Exercícios</li>
     </ul>
