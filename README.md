@@ -3,7 +3,7 @@
 <p align="center">Repositório dedicado ao curso DEVinHouse (da empresa Audaces) realizado na instituição de ensino do SENAI/SC. </p>
 
 <p>
-    <a href="">Semana 1</a>
+    <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01">Semana 1</a>
         <ul>
             <li>Aula 02</li>
             <li>Aula 03</li>
@@ -13,7 +13,7 @@
         </ul>
 </p>
 <p>
-    <a href="">Semana 2</a>
+    <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/aula02">Semana 2</a>
     <ul>
         <li>Aula 01</li>
         <li>Aula 02</li>
