@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">DEVinHouse - Audaces </h1>
 
 <p align="center">Repositório dedicado ao curso DEVinHouse (da empresa Audaces) realizado na instituição de ensino do SENAI/SC. </p>
@@ -24,3 +25,7 @@
 </p>
 
 <h4 align="center">Curso em andamento! 🚧</h4>
+=======
+# DevInHouse
+DevInHouse - Audaces
+>>>>>>> 6d3ba0deea5908e63c84a698901c3e23f6040280
