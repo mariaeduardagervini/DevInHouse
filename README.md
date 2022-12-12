@@ -5,20 +5,19 @@
 <p>
     <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01">Semana 1</a>
         <ul>
-            <li>Aula 02</li>
-            <li>Aula 03</li>
-            <li>Aula 04</li>
-            <li>Aula 05</li>
-            <li>Exercícios</li>
+            <li> <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01/AULA02">Aula 02</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01/AULA03">Aula 03</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01/AULA04">Aula 04</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01/AULA05">Aula 05</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01/EXERCICIOS">Exercícios</a></li>
         </ul>
 </p>
 <p>
-    <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/aula02">Semana 2</a>
+    <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/">Semana 2</a>
     <ul>
-        <li>Aula 01</li>
-        <li>Aula 02</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA02">Aula 02</a></li>
         <li>Aula 03</li>
-        <li>Aula 04</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04Aula04">Aula04</a></li>
         <li>Aula 05</li>
         <li>Exercícios</li>
     </ul>
