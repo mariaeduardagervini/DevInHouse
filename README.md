@@ -22,7 +22,11 @@
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS">Exercícios</a></li>
         <ul>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.02">Ex.02</a></li>   
-            <li><a href="">Ex.03</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.03">Ex.03</a></li>
+            <li><a href="">Ex.04</a></li>
+            <li><a href="">Ex.05</a></li>
+            <li><a href="">Ex.06</a></li>
+            <li><a href="">Ex.07</a></li>
         </ul>
     </ul>
 <p>
