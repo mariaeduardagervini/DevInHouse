@@ -26,7 +26,7 @@
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.04">Ex.04</a></li>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.05">Ex.05</a></li>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.06">Ex.06</a></li>
-            <li><a href="http://127.0.0.1:5500/MODULO.01/SEMANA.02/EXERCICIOS/Ex.07/index.js">Ex.07</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.07">Ex.07</a></li>
             <li><a href="">Ex.08</a></li>
         </ul>
     </ul>
