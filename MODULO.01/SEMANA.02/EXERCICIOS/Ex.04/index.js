@@ -1,8 +1,15 @@
 var soma = 0;
 
 do {
-    var numero = parseInt(prompt('Digite um número'));
+    var numero = (prompt('Digite um número'));
 
+    console.log(numero === null);
+    if (numero === null) {
+        break;
+    }
+
+    numero = parseInt(numero);
+    
     if(isNaN(numero) || numero === -1) {
         continue;
     }
