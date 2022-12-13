@@ -19,7 +19,8 @@
         <li>Aula 03</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04">Aula 04</a></li>
         <li>Aula 05</li>
-        <ul>Exercícios
+        <li>Exercícios</li>
+        <ul>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.02">Ex.02</a></li>   
         </ul>
     </ul>
