@@ -37,14 +37,14 @@
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.04">Aula 04</a></li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS">Exercícios</a></li>
         <ul>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.01">Ex.01</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.02">Ex.02</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.03">Ex.03</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.04">Ex.04</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.05">Ex.05</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.06">Ex.06</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.07">Ex.07</li>
-        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.08">Ex.08</li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.01">Ex.01</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.02">Ex.02</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.03">Ex.03</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.04">Ex.04</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.05">Ex.05</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.06">Ex.06</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.07">Ex.07</a></li>
+            <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.08">Ex.08</a></li>
         </ul>
 </p>
 
