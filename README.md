@@ -18,7 +18,6 @@
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/aula02">Aula 02</a></li>
         <li>Aula 03</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04">Aula 04</a></li>
-        <li>Aula 05</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS">Exercícios</a></li>
         <ul>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.02">Ex.02</a></li>   
@@ -44,10 +43,9 @@
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.04">Ex.04</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.05">Ex.05</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.06">Ex.06</li>
-        </ul>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.07">Ex.07</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.08">Ex.08</li>
-
+        </ul>
 </p>
 
 <h4 align="center">Curso em andamento! 🚧</h4>
