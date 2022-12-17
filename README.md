@@ -31,13 +31,23 @@
         </ul>
     </ul>
 <p>
-    <a href="">Semana 3</a>
-        <li>Aula 01</li>
-        <li>Aula 02</li>
-        <li>Aula 03</li>
-        <li>Aula 04</li>
-        <li>Aula 05</li>
-        <li>Exercícios</li>
+    <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03">Semana 3</a>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.01">Aula 01</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.02">Aula 02</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.03">Aula 03</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.04">Aula 04</a></li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS">Exercícios</a></li>
+        <ul>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.01">Ex.01</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.02">Ex.02</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.03">Ex.03</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.04">Ex.04</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.05">Ex.05</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.06">Ex.06</li>
+        </ul>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.07">Ex.07</li>
+        <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.08">Ex.08</li>
+
 </p>
 
 <h4 align="center">Curso em andamento! 🚧</h4>
