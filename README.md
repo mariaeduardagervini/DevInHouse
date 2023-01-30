@@ -21,7 +21,6 @@
         <li>Aula 03</li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/AULA04">Aula 04</a></li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS">Exercícios</a></li>
-    </ul>
         <ul>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.02">Ex.02</a></li>   
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.03">Ex.03</a></li>
@@ -31,6 +30,7 @@
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.07">Ex.07</a></li>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.02/EXERCICIOS/Ex.08">Ex.08</a></li>
         </ul>
+    </ul>
 </div>
 
 <div id='semana-03'>
@@ -41,7 +41,6 @@
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.03">Aula 03</a></li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/AULA.04">Aula 04</a></li>
         <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS">Exercícios</a></li>
-    </ul>
         <ul>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.01">Ex.01</a></li>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.02">Ex.02</a></li>
@@ -52,6 +51,7 @@
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.07">Ex.07</a></li>
             <li><a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.03/EXERC%C3%8DCIOS/EX.08">Ex.08</a></li>
         </ul>
+    </ul>
 </div>
 
 <div id='semana-04'>
