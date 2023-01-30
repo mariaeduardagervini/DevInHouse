@@ -1,8 +1,6 @@
-<header>
-    <h1 align="center">DEVinHouse - Audaces </h1>
+<h1 align="center">DEVinHouse - Audaces </h1>
     
-    <p align="center">Repositório dedicado ao curso DEVinHouse (da empresa Audaces) realizado na instituição de ensino do SENAI/SC. </p>
-</header>
+<p align="center">Repositório dedicado ao curso DEVinHouse (da empresa Audaces) realizado na instituição de ensino do SENAI/SC. </p>
 
 <div id=semana-01>
     <a href="https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.01">Semana 1</a>
