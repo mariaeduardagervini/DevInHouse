@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Conta Bancária</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" async></script>
+  </head>
+  <body>
+    <header>
+      <img src="imagens/logo-me.png" class="logo" alt="Logo Banco ME" />
+      <h1>BankME</h1>
+    </header>
+    <main>
+      <section>
+        <!--Início do formulário-->
+        <h2>Formulário de Cadastro</h2>
+        <form class="form-cadastro" id="form-cadastro"></form>
+        <div>
+          <label for="nome">Nome:</label>
+          <input required type="text" class="nome" id="nome" placeholder="Digite seu nome" />
+        </div>
+        <div>
+          <label for="cpf">CPF:</label>
+          <input required type="text" class="cpf" id="cpf" placeholder="Digite o CPF" />
+        </div>
+        <div>
+          <label for="celular">Celular:</label>
+          <input required type="tel" class="celular" id="celular" placeholder="Digite o celular" />
+        </div>
+        <div>
+          <label for="senha">Senha:</label>
+          <input required type="password" class="senha" id="senha" placeholder="Digite a senha" />
+        </div>
+        <div>
+          <label for="confSenha">Confirmação de Senha:</label>
+          <input
+            required
+            type="password"
+            class="conf-senha"
+            id="confSenha"
+            placeholder="Digite a confirmação da senha"
+          />
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="button-enviar">Enviar</button>
+          <button type="reset" class="button-limpar">Limpar</button>
+        </div>
+      </section>
+      <!--Fim do formulário-->
+    </main>
+    <footer>
+      <p>Este é o banco ME.</p>
+    </footer>
+  </body>
+</html>

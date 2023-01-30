@@ -9,7 +9,7 @@ const buscaCep = (event) => {
   alert(`CEP: ${event.target.value} Rua teste n 18`);
 };
 
-// Input para eventp de onblur
+// Input para evento de onblur
 const inputCep = document.createElement('input');
 inputCep.onblur = (event) => buscaCep(event.target.value);
 inputCep.placeholder = 'Digite o CEP';
