@@ -24,7 +24,7 @@ class Retangulo {
     this.#altura = novoValor;
   }
 }
-
+//SETTER - Em vez de buscar o valor estamos definindo
 const quad = new Retangulo(4, 5);
 quad.definirAltura = 2;
 console.log(quad.altura);
@@ -53,3 +53,30 @@ const valor = melao.obterValorTotal();
 
 console.log(valor);
 console.log(melao.valorTotal);
+
+// EXEMPLOS de atributos e métodos STATIC
+
+class Item {
+  static #nextId = 0;
+  id;
+  label;
+
+  constructor(label) {
+    this.id = Item.#nextId++;
+    this.label = label;
+  }
+
+  static isItem(parametro) {
+    return parametro instanceof Item;
+  }
+}
+
+const item1 = new Item('batata');
+const item2 = new Item('mamão');
+const item3 = new Item('banana');
+
+console.log(item1);
+console.log(item2);
+console.log(item3);
+
+const vetor = new Array();
