@@ -66,19 +66,19 @@
 <div id='semana-05'>
     <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05'>Semana 05</a>
     <ul>
-        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-01'></a>Aula 01</li>
-        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-02'></a>Aula 02</li>
-        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-03'></a>Aula 03</li>
-        <li><a href=''></a>Aula 04</li>
-        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios'></a>Exercícios</li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-01'>Aula 01</a></li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-02'>Aula 02</a></li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-03'>Aula 03</a></li>
+        <li><a href=''>Aula 04</a></li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios'>Exercícios</a></li>
         <ul>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-01'></a>Ex.01</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-02'></a>Ex.02</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-03'></a>Ex.03</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-04'></a>Ex.04</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-05'></a>Ex.05</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-06'></a>Ex.06</li>
-            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-07'></a>Ex.07</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-01'>Ex.01</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-02'>Ex.02</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-03'>Ex.03</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-04'>Ex.04</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-05'>Ex.05</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-06'>Ex.06</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-07'>Ex.07</a></li>
         </ul>
     </ul>
 </div>
