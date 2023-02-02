@@ -74,11 +74,11 @@
         <ul>
             <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-01'></a>Ex.01</li>
             <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-02'></a>Ex.02</li>
-            <li><a href=''></a>Ex.03</li>
-            <li><a href=''></a>Ex.04</li>
-            <li><a href=''></a>Ex.05</li>
-            <li><a href=''></a>Ex.06</li>
-            <li><a href=''></a>Ex.07</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-03'></a>Ex.03</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-04'></a>Ex.04</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-05'></a>Ex.05</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-06'></a>Ex.06</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-07'></a>Ex.07</li>
         </ul>
     </ul>
 </div>
