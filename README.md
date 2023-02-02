@@ -63,6 +63,25 @@
     </ul>
 
 </div>
+<div id='semana-05'>
+    <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05'>Semana 05</a>
+    <ul>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-01'></a>Aula 01</li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-02'></a>Aula 02</li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/aula-03'></a>Aula 03</li>
+        <li><a href=''></a>Aula 04</li>
+        <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios'></a>Exercícios</li>
+        <ul>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-01'></a>Ex.01</li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.05/exercicios/ex-02'></a>Ex.02</li>
+            <li><a href=''></a>Ex.03</li>
+            <li><a href=''></a>Ex.04</li>
+            <li><a href=''></a>Ex.05</li>
+            <li><a href=''></a>Ex.06</li>
+            <li><a href=''></a>Ex.07</li>
+        </ul>
+    </ul>
+</div>
 <footer>
     <h4 align="center">Curso em andamento! 🚧</h4>
 </footer>
