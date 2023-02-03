@@ -10,12 +10,12 @@ export class Animal {
 }
 
 export class Cachorro extends Animal {
-  constructor(nome, idade, som) {
+  constructor(nome, idade) {
     super(nome, idade, 'latido');
   }
 }
 export class Gato extends Animal {
-  constructor(nome, idade, som) {
+  constructor(nome, idade) {
     super(nome, idade, 'miado');
   }
 }
