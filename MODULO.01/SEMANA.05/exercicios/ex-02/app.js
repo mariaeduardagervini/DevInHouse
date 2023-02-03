@@ -1,11 +1,9 @@
-// Se a quantidade não for positiva, ela deve ser indicada como 0 (zero).
-// Se o preço por item não for positivo ele deve ser indicado como 0.
-
 import Fatura from './Fatura.js';
 
-const arroz = new Fatura(2, 'arroz', 5, 1.5);
+const melao = new Fatura(123, 'Melão', 2, 3);
 
-const valor = arroz.obterValorTotal();
+const valor = melao.obterValorTotal();
+const valorTotal = melao.valorTotal;
 
 console.log(valor);
-console.log(arroz.obterValorTotal);
+console.log(valorTotal);
