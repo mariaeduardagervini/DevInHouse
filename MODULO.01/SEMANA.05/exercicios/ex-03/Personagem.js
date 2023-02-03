@@ -2,17 +2,13 @@ export default class Personagem {
   nome;
   percentualVida = 100;
 
-  constructor(nome) {
-    this.nome = nome;
-    this.percentualVida = Personagem.percentualVida;
-  }
   sofreuDano(percentualDano) {
-    if (this.percentualVida <= 100 && this.percentualVida >= 0) {
-      return (this.percentualVida = percentualDano);
-    }
+    const novaVida = this.percentualVida - percentualDano;
+    this.percentualVida = novaVida < 0 ? 0 : novaVida;
+  }
 
-    //usouKitMedico() {
-    // return this.percentualVida + 10;
-    // }
+  usouKitMedico() {
+    const novaVida = this.percentualVida + 10;
+    this.percentualVida = novaVida > 100 ? 100 : novaVida;
   }
 }
