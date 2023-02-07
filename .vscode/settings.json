@@ -35,7 +35,7 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.codeActionsOnSave": {
