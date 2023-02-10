@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 92, 76);
+}
+
+body {
+  background-color: rgb(184, 236, 218);
+  padding: 25px;
+}
+.teste {
+  margin-top: 25px;
+}
+#val {
+  border: 1px solid rgb(43, 92, 76);
+  padding: 5px;
+  width: 55px;
+  font-weight: bolder;
+}
+#botao-enviar {
+  background-color: rgb(58, 182, 140);
+  border: 1px solid rgb(43, 92, 76);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+#botao-enviar:hover {
+  background-color: rgb(165, 244, 218);
+}
+#msg {
+  padding: 20px;
+  color: rgb(43, 92, 76);
+  font-weight: bolder;
+}

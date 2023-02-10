@@ -80,9 +80,9 @@ new Promise((res, rej) => {
   const num = Math.random();
   console.log(num);
   if (num > 0.5) {
-    setTimeout(() => res('Sucesso'), 5000);
+    setTimeout(() => res('Sucesso'), 3000);
   } else {
-    setTimeout(() => rej('Erro!'), 5000);
+    setTimeout(() => rej('Erro!'), 3000);
   }
 })
   .then((resultado) => {
