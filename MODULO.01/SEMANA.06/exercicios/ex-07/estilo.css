@@ -9,6 +9,21 @@ body {
   background-color: rgb(184, 236, 218);
   padding: 25px;
 }
-p {
-  padding: 10px;
+h2 {
+  padding: 15px;
+  color: rgb(104, 32, 171);
+}
+.lista {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.itemLista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgb(104, 32, 171);
+  border-radius: 5px;
+  align-items: center;
 }
