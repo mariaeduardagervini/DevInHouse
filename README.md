@@ -92,12 +92,11 @@
         <li><a href=''>Aula 04</a></li>
         <li><a href=''>Exercícios</a></li>
         <ul>
-            <li><a href=''>Ex.01</a></li>
-            <li><a href=''>Ex.02</a></li>
-            <li><a href=''>Ex.03</a></li>
-            <li><a href=''>Ex.04</a></li>
-            <li><a href=''>Ex.05</a></li>
-            <li><a href=''>Ex.06</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-01'>Ex.01</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-02'>Ex.02</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInhttps://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-04'>Ex.04</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-05'>Ex.05</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-06'>Ex.06</a></li>
             <li><a href=''>Ex.07</a></li>
             <li><a href="">Ex.08</a></li>
         </ul>
