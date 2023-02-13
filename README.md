@@ -97,8 +97,8 @@
             <li><a href='https://github.com/mariaeduardagervini/DevInhttps://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-04'>Ex.04</a></li>
             <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-05'>Ex.05</a></li>
             <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-06'>Ex.06</a></li>
-            <li><a href=''>Ex.07</a></li>
-            <li><a href="">Ex.08</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-07'>Ex.07</a></li>
+            <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-08'>Ex.08</a></li>
         </ul>
     </ul>
 </div>
