@@ -102,10 +102,10 @@
         </ul>
     </ul>
     <div id='semana-07'>
-    <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.07'>Semana 07</a>
+    <a href='https://github.com/mariaeduardagervini/projeto-galeria'>Semana 07</a>
     </div>
      <div id='semana-08'>
-    <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.08'>Semana 08</a>
+    <a href=''>Semana 08</a>
     </div>
 </div>
 <footer>
