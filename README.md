@@ -101,6 +101,12 @@
             <li><a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.06/exercicios/ex-08'>Ex.08</a></li>
         </ul>
     </ul>
+    <div id='semana-07'>
+    <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.07'>Semana 07</a>
+    </div>
+     <div id='semana-08'>
+    <a href='https://github.com/mariaeduardagervini/DevInHouse/tree/main/MODULO.01/SEMANA.08'>Semana 08</a>
+    </div>
 </div>
 <footer>
     <h4 align="center">Curso em andamento! 🚧</h4>
