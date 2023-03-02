@@ -1,1 +1,8 @@
-<p>lista-episodios works!</p>
+<ul>
+  <li *ngFor="let episodio of episodios">
+    {{ episodio.nome }} ({{ episodio?.duracao }})
+    <!--interrogação torna não obrigatório o episodio -->
+  </li>
+</ul>
+
+<button (click)="emitirEvento()">Clique</button>
