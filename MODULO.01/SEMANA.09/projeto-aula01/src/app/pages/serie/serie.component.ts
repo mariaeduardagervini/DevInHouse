@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { EventEmitterService } from 'src/app/services/event-emitter.service';
 
 @Component({
   selector: 'app-serie',
@@ -6,17 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./serie.component.scss'],
 })
 export class SerieComponent implements OnInit {
-  lista = [
-    { nome: 'Titanic', duracao: '247' },
-    { nome: 'A vida é bela', duracao: '205' },
-    { nome: 'E o vento levou', duracao: '147)' },
-  ];
-  constructor() {}
+  eps = [];
+
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
 
   recebeEvento(event: any) {
-    console.log('--Recebe evento--');
+    console.log('-- recebeu evento no pai --');
     console.log(event);
   }
 }
