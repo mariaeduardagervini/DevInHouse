@@ -9,6 +9,15 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
   parametroVar = 25;
 
+  seriesList = [
+    { id: '1', nome: 'Breaking Bed' },
+    { id: '2', nome: 'The Walking Dead' },
+    { id: '3', nome: 'Game of Thrones' },
+  ];
+  tratarEvento(event: any) {
+    console.log(event);
+  }
+
   constructor(private router: Router) {}
 
   ngOnInit(): void {}

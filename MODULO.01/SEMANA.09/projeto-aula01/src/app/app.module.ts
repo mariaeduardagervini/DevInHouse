@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { CardComponent } from './pages/card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +18,11 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     ListaEpisodiosComponent,
     HomeComponent,
     NotfoundComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, CommonModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}

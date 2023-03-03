@@ -1,7 +1,12 @@
 <p>home works!</p>
-
+<app-card
+  *ngFor="let item of seriesList"
+  [series]="item"
+  (eventemitter)="tratarEvento($event)"
+></app-card>
 <ul>
   <li routerLink="/serie/12" routerLinkActive="selected">Rota 1</li>
+  <!--Variável que está no typescript [routerLink]-->
   <li [routerLink]="['/serie/' + parametroVar]" routerLinkActive="selected">
     Rota 2
   </li>

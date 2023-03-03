@@ -18,4 +18,8 @@ export class SerieComponent implements OnInit {
     console.log('-- recebeu evento no pai --');
     console.log(event);
   }
+
+  ngOnDestroy() {
+    EventEmitterService.get('verTrailer').unsubscribe();
+  }
 }
