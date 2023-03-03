@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { ListaEpisodiosComponent } from './components/lista-episodios/lista-episodios.component';
 import { SerieComponent } from './pages/serie/serie.component';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { CardComponent } from './pages/card/card.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,15 @@ import { CardComponent } from './pages/card/card.component';
     HomeComponent,
     NotfoundComponent,
     CardComponent,
+    FormsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CommonModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
