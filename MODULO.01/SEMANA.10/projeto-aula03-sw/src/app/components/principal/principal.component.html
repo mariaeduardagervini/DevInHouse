@@ -1,0 +1,13 @@
+<header>
+  <img class="logo-starwars" src="../../../assets/logo-starwars.png" alt="" />
+</header>
+<main>
+  <h1>Buscador - <b>Star Wars</b></h1>
+  <app-buscador></app-buscador>
+  <div class="lista">
+    <app-cards
+      *ngFor="let item of personagens"
+      [personagens]="item"
+    ></app-cards>
+  </div>
+</main>
