@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Ilogin } from 'src/app/models/login.interface';
 import { WebService } from 'src/app/services/web.service';
 
@@ -11,7 +12,11 @@ import { WebService } from 'src/app/services/web.service';
 export class FormsComponent {
   myForm!: FormGroup;
 
-  constructor(private fb: FormBuilder, private webService: WebService) {}
+  constructor(
+    private fb: FormBuilder,
+    private webService: WebService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     this.myForm = this.fb.group({
@@ -24,7 +29,7 @@ export class FormsComponent {
 
   iniciarDados() {
     this.myForm.patchValue({
-      email: 'yan.m.esteves@gmail.com',
+      email: '',
     });
   }
 
@@ -35,7 +40,9 @@ export class FormsComponent {
       return;
     }
 
-    //const data: Ilogin = this.myForm.value;
-    //this.webService.post('/login', this.myForm.value);
+    const data: Ilogin = this.myForm.value;
+    this.webService.post('/login', this.myForm.value);
+    console.log(data);
   }
+  acessarConta() {}
 }

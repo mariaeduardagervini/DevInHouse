@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FullComponent } from './layouts/full/full.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
+import { SerieComponent } from './pages/serie/serie.component';
+import { CardSerieComponent } from './pages/card-serie/card-serie.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -17,7 +19,11 @@ const routes: Routes = [
     path: '',
     component: ContentComponent,
 
-    children: [{ path: 'login', component: LoginComponent }],
+    children: [
+      { path: 'login', component: LoginComponent },
+      { path: 'card-serie', component: CardSerieComponent },
+      { path: 'serie', component: SerieComponent },
+    ],
   },
 ];
 
