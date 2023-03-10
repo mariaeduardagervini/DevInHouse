@@ -1,11 +1,24 @@
+import { ContentComponent } from './layouts/content/content.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { FullComponent } from './layouts/full/full.component';
+import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {
+    path: '',
+    component: FullComponent,
+
+    children: [{ path: 'home', component: HomeComponent }],
+  },
+  {
+    path: '',
+    component: ContentComponent,
+
+    children: [{ path: 'login', component: LoginComponent }],
+  },
 ];
 
 @NgModule({

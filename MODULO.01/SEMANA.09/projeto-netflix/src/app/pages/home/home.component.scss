@@ -2,25 +2,15 @@
   color: white;
   font-family: "Roboto", sans-serif;
 }
-
-.tela-fundo {
-  background-image: url("https://segredosdomundo.r7.com/wp-content/uploads/2021/11/como-decorar-sua-abobora-de-halloween-copy-1.jpg");
-  opacity: 0.3;
-  width: 100%;
-  height: 80vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-}
 .logo-netflix {
-  height: 40px;
-  position: relative;
-  left: 350px;
-  top: 50px;
-  background-color: transparent;
+  margin-top: 30px;
+  margin-left: 250px;
+  padding: 10px;
+  position: absolute;
+  width: 150px;
 }
 .login {
+  margin-top: 30px;
   background-color: #e50914;
   border-radius: 10px;
   padding: 10px;
@@ -28,6 +18,7 @@
   font-weight: bolder;
   position: absolute;
   right: 300px;
+  cursor: pointer;
 }
 
 h1 {
@@ -39,24 +30,28 @@ h2 {
 h3 {
   font-size: 20px;
 }
-.texto {
+.principal {
   position: relative;
   text-align: center;
   top: 250px;
   line-height: 45pt;
   justify-content: center;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px);
 }
 
-input {
+.email {
   width: 400px;
   height: 50px;
   box-sizing: border-box;
   border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.179);
 }
 
-input::placeholder {
+.email::placeholder {
   padding: 10px;
   font-size: 15px;
+  color: rgba(255, 255, 255, 0.821);
 }
 .vamos {
   background-color: #e50914;
