@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Ilogin } from 'src/app/models/login.interface';
+
 import { WebService } from 'src/app/services/web.service';
 
 @Component({
@@ -20,8 +20,15 @@ export class FormsComponent {
 
   ngOnInit() {
     this.myForm = this.fb.group({
-      email: ['', [Validators.email]],
-      password: ['', [Validators.minLength(6), Validators.maxLength(12)]],
+      email: ['', [Validators.required, Validators.email]],
+      password: [
+        '',
+        [
+          Validators.required,
+          Validators.minLength(6),
+          Validators.maxLength(10),
+        ],
+      ],
     });
 
     this.iniciarDados();
@@ -33,16 +40,16 @@ export class FormsComponent {
     });
   }
 
-  jaTentouEnviar = 0;
   onSubmit() {
     if (!this.myForm.valid) {
       console.log('Algo não está de acordo.');
       return;
     }
 
-    const data: Ilogin = this.myForm.value;
-    this.webService.post('/login', this.myForm.value);
-    console.log(data);
+    // const data: Ilogin = this.myForm.value;
+    // this.webService.post('/login', this.myForm.value);
   }
-  acessarConta() {}
+  acessarConta() {
+    this.router.navigate(['/login']);
+  }
 }

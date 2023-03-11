@@ -1,3 +1,9 @@
-<div class="page-wrapper">
+<div>
   <router-outlet></router-outlet>
+</div>
+<div class="cards">
+  <app-card-serie
+    *ngFor="let serie of series"
+    [series]="serie"
+  ></app-card-serie>
 </div>
