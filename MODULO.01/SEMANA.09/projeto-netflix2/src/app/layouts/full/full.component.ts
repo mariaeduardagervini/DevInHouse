@@ -1,3 +1,4 @@
+import { SerieService } from './../../services/serie.service';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./full.component.css'],
 })
 export class FullComponent {
-  @Input() public serie: any = {};
+  constructor() {}
 }

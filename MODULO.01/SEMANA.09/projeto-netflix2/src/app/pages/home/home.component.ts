@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.serieService.getSeries().subscribe((listarSeries) => {
       this.listarSeries = listarSeries;
-      console.log(listarSeries);
     });
   }
 }

@@ -5,9 +5,12 @@
   </div>
   <div class="content">
     <router-outlet></router-outlet>
-    <div>
-      <app-home></app-home>
-    </div>
+    <app-home>
+      <app-card-serie>
+        <!-- *ngFor="let series of serie" [serie]="item" -->
+      </app-card-serie>
+    </app-home>
+
     <app-serie></app-serie>
   </div>
   <div class="footer"></div>
