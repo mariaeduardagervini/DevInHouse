@@ -1,0 +1,12 @@
+<div
+  [ngStyle]="{ backgroundImage: 'url(' + serie.imagem + ')' }"
+  (click)="navigateToSerie(serie.id)"
+  (mouseover)="show = true"
+  (mouseout)="show = false"
+  [ngClass]="show ? 'bigger' : 'normal'"
+  class="card-container"
+>
+  <h4 [ngClass]="show ? 'show-card' : 'hidden-card'" class="titulo">
+    {{ serie.nome }}
+  </h4>
+</div>

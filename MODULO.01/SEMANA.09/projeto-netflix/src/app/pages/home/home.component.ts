@@ -1,17 +1,23 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component } from '@angular/core';
+import { Serie } from 'src/app/models/serie.interface';
+import { SerieService } from 'src/app/services/serie.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
-  constructor(private router: Router) {}
+export class HomeComponent {
+  serie: Serie[] = [];
 
-  ngOnInit(): void {}
+  constructor(private serieService: SerieService) {
+    this.listSeries();
+  }
 
-  acessarConta() {
-    this.router.navigate(['/login']);
+  listSeries() {
+    this.serieService.getSeries().subscribe((series) => {
+      this.serie = series;
+      console.log(series);
+    });
   }
 }

@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "maria@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "email": "eduarda@email.com",
+      "senha": "654321"
+    }
+  ],
+
+  "series": [
+    {
+      "id": 1,
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2019/08/peaky-blinders-cast-maxi-poster-1.190.jpg",
+      "nome": "Peaky Blinders",
+      "seasons": "6"
+    },
+    {
+      "id": 2,
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2016/11/strangerthings3.jpg?quality=70&strip=all",
+      "nome": "Stranger Things",
+      "seasons": "4"
+    },
+    {
+      "id": 3,
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2016/09/thecrown_1.jpg",
+      "nome": "The Crown",
+      "seasons": "5"
+    }
+  ]
+}

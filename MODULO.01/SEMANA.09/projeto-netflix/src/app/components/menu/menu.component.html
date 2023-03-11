@@ -1,1 +1,33 @@
-<ng-content></ng-content>
+<nav>
+  <div class="menu">
+    <div class="logo">
+      <img
+        (click)="voltarHome()"
+        width="92.5"
+        src="assets/images/logo.png"
+        alt="Logo Netflix"
+      />
+    </div>
+    <ul>
+      <li>
+        <a routerLink="/home" routerLinkActive="active">Início</a>
+      </li>
+      <li>
+        <a routerLink="#">Séries</a>
+      </li>
+      <li>
+        <a routerLink="#">Filmes</a>
+      </li>
+      <li>
+        <a routerLink="#">Bombando</a>
+      </li>
+      <li>
+        <a routerLink="#">Minha lista</a>
+      </li>
+      <li>
+        <a routerLink="#">Navegar por idiomas</a>
+      </li>
+    </ul>
+  </div>
+  <button (click)="logout()">Logout</button>
+</nav>

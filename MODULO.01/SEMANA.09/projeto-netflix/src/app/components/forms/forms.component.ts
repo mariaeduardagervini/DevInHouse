@@ -1,25 +1,43 @@
-import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UsuarioService } from './../../services/usuario.service';
+import { Component, OnInit } from '@angular/core';
+import {
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
 import { Router } from '@angular/router';
-
 import { WebService } from 'src/app/services/web.service';
+import { IUsuario, User } from 'src/app/models/usuario.interface';
 
 @Component({
   selector: 'app-forms',
   templateUrl: './forms.component.html',
   styleUrls: ['./forms.component.scss'],
 })
-export class FormsComponent {
-  myForm!: FormGroup;
+export class FormsComponent implements OnInit {
+  user: User = new User();
+  formUser!: FormGroup;
+  listUsers: User[] = [];
 
   constructor(
     private fb: FormBuilder,
-    private webService: WebService,
+    private usuarioService: UsuarioService,
     private router: Router
   ) {}
 
   ngOnInit() {
-    this.myForm = this.fb.group({
+    this.iniciarDados();
+  }
+
+  iniciarDados() {
+    this.getUsersList();
+    this.createForm(new User());
+    this.createLocalStorage(false);
+  }
+
+  createForm(user: User) {
+    this.formUser = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: [
         '',
@@ -30,26 +48,70 @@ export class FormsComponent {
         ],
       ],
     });
-
-    this.iniciarDados();
+  }
+  get email() {
+    return this.formUser.get('email')!;
   }
 
-  iniciarDados() {
-    this.myForm.patchValue({
-      email: '',
+  get senha() {
+    return this.formUser.get('senha')!;
+  }
+
+  createLocalStorage(booleanValue: boolean) {
+    localStorage.setItem('logged', `${booleanValue}`);
+  }
+
+  getUsersList() {
+    this.usuarioService.getUsers().subscribe((users) => {
+      this.listUsers = users;
     });
   }
 
-  onSubmit() {
-    if (!this.myForm.valid) {
-      console.log('Algo não está de acordo.');
-      return;
-    }
+  findUser() {
+    this.listUsers.find((user) => {
+      if (user.email === this.email.value) {
+        this.user = user;
+      }
+    });
 
-    // const data: Ilogin = this.myForm.value;
-    // this.webService.post('/login', this.myForm.value);
+    if (this.user.email === undefined && this.email.value === null) {
+      this.email.setErrors({ required: true });
+      this.email.markAsTouched();
+      return false;
+    } else if (this.user.email === undefined && this.email.value != null) {
+      this.email.setErrors({ invalid: true });
+      this.email.markAsTouched();
+      return false;
+    } else {
+      return true;
+    }
   }
-  acessarConta() {
-    this.router.navigate(['/login']);
+
+  correctPassword() {
+    if (this.senha.value === null) {
+      this.senha.setErrors({ required: true });
+      this.senha.markAsTouched();
+    } else {
+      if (this.user.password === this.senha.value) {
+        return true;
+      } else {
+        this.senha.setErrors({ invalid: true });
+        this.senha.markAsTouched();
+        return false;
+      }
+    }
+    return false;
+  }
+  onSubmit() {
+    if (this.findUser()) {
+      if (this.correctPassword()) {
+        this.createLocalStorage(true);
+        this.router.navigate(['/home']);
+      } else {
+        this.createLocalStorage(false);
+      }
+    } else {
+      this.createLocalStorage(false);
+    }
   }
 }

@@ -1,0 +1,27 @@
+<nav>
+  <div class="menu">
+    <div class="logo">
+      <img
+        src="https://logopng.com.br/logos/netflix-94.png"
+        alt="Logo Netflix"
+        class="logo-netflix"
+        routerLink="/home"
+      />
+    </div>
+    <ul>
+      <li>
+        <a routerLink="/home" routerLinkActive="active">Início</a>
+      </li>
+      <li>
+        <a routerLink="/serie/1">Peaky Blinders</a>
+      </li>
+      <li>
+        <a routerLink="/serie/2">The Crown</a>
+      </li>
+      <li>
+        <a routerLink="/serie/3">Stranger Things</a>
+      </li>
+    </ul>
+  </div>
+  <button (click)="logout()">Logout</button>
+</nav>

@@ -1,9 +1,21 @@
-<app-full></app-full>
+<app-principal></app-principal>
 <main>
   <div class="container">
+    <img
+      class="fundo-netflix"
+      src="https://segredosdomundo.r7.com/wp-content/uploads/2021/11/como-decorar-sua-abobora-de-halloween-copy-1.jpg"
+      alt="Plano de Fundo Netflix"
+    />
     <div class="content">
+      <div class="logo">
+        <img
+          class="logo-netflix"
+          src="https://logopng.com.br/logos/netflix-94.png"
+          alt="Logo Netflix"
+        />
+      </div>
       <div class="login">
-        <form class="form" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <form class="form" [formGroup]="formUser" (ngSubmit)="onSubmit()">
           <h1>Entrar</h1>
           <div class="form-group">
             <label>E-mail</label>
@@ -18,14 +30,7 @@
             />
           </div>
 
-          <button
-            [disabled]="!myForm.valid"
-            type="submit"
-            click="acessarConta()"
-            routerLink="/card-serie"
-          >
-            Entrar
-          </button>
+          <button [disabled]="!formUser.valid" type="submit">Entrar</button>
         </form>
       </div>
     </div>
