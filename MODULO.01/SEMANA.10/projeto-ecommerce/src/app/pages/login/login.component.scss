@@ -1,0 +1,71 @@
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(247, 163, 234);
+  background-image: url("../../../assets/imagens/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid rgba(239, 79, 215, 0.417);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 60px 40px;
+}
+
+.container form h2 {
+  font-weight: 700;
+}
+h2 {
+  color: rgb(239, 79, 215);
+}
+
+form button,
+form input,
+.form-floating {
+  width: 100%;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(156, 156, 156);
+}
+
+form button:focus,
+form input:focus,
+form .form-floating:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+form input:focus {
+  border: 2px solid rgb(247, 163, 234);
+}
+
+form button {
+  padding: 13px 0px;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(239, 79, 215), rgb(247, 163, 234));
+  border: none;
+}
+
+form button:hover {
+  background: rgb(239, 79, 215);
+  transition: all 0.6s ease;
+}
+
+form a {
+  font-size: 13px;
+}
