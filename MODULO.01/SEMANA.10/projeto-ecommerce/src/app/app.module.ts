@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, PipeTransform } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +12,14 @@ import { MenuComponent } from './components/menu/menu.component';
 import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent, EmailPipePipe],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    FullComponent,
+    WrapperComponent,
+    MenuComponent,
+    EmailPipePipe,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -20,7 +27,7 @@ import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [EmailPipePipe],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
