@@ -1,5 +1,5 @@
+import { Component, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-create',
@@ -20,12 +20,12 @@ export class CreateComponent implements OnInit {
   createForm() {
     this.productForm = new FormGroup({
       id: new FormControl('', [Validators.required, Validators.minLength(2)]),
-      nome: new FormControl('', [Validators.required, Validators.minLength(2)]),
+      name: new FormControl('', [Validators.required, Validators.minLength(2)]),
       preco: new FormControl('', [
         Validators.required,
         Validators.minLength(4),
       ]),
-      quantidade: new FormControl('', [
+      quantity: new FormControl('', [
         Validators.required,
         Validators.minLength(4),
       ]),
@@ -40,16 +40,16 @@ export class CreateComponent implements OnInit {
     return this.productForm.get('id')?.value;
   }
 
-  get nome() {
-    return this.productForm.get('nome')?.value;
+  get name() {
+    return this.productForm.get('name')?.value;
   }
 
   get preco() {
     return this.productForm.get('preco')?.value;
   }
 
-  get quantidade() {
-    return this.productForm.get('quantidade')?.value;
+  get quantity() {
+    return this.productForm.get('quantity')?.value;
   }
 
   get username() {

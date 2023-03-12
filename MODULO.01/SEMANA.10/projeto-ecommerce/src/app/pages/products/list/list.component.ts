@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SearchPipePipe } from 'src/app/common/pipes/search-pipe.pipe';
 
 @Component({
   selector: 'app-list',
@@ -32,4 +33,7 @@ export class ListComponent {
       unitPrice: 259.9,
     },
   ];
+  keySearch: string = '';
+
+  constructor(private pipe: SearchPipePipe) {}
 }
