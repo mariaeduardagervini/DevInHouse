@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
 import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
+import { ListComponent } from './pages/products/list/list.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
     WrapperComponent,
     MenuComponent,
     EmailPipePipe,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
