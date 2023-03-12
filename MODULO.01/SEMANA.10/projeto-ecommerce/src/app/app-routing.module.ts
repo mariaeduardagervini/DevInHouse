@@ -4,6 +4,7 @@ import { WrapperComponent } from './layout/wrapper/wrapper.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './pages/products/list/list.component';
+import { CreateComponent } from './pages/products/create/create.component';
 
 const routes: Routes = [
   {
@@ -22,12 +23,16 @@ const routes: Routes = [
     ],
   },
   {
-    path: '',
+    path: 'products',
     component: FullComponent,
     children: [
       {
-        path: 'home',
+        path: 'list',
         component: ListComponent,
+      },
+      {
+        path: 'add',
+        component: CreateComponent,
       },
     ],
   },

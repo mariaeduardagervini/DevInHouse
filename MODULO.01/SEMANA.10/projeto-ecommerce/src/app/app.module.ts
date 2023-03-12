@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
 import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
 import { ListComponent } from './pages/products/list/list.component';
+import { CreateComponent } from './pages/products/create/create.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ListComponent } from './pages/products/list/list.component';
     MenuComponent,
     EmailPipePipe,
     ListComponent,
+    CreateComponent,
   ],
   imports: [
     BrowserModule,
