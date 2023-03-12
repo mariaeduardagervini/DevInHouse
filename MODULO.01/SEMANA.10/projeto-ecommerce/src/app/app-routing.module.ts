@@ -31,7 +31,7 @@ const routes: Routes = [
         component: ListComponent,
       },
       {
-        path: 'add',
+        path: 'create',
         component: CreateComponent,
       },
     ],
