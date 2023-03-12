@@ -9,9 +9,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
+import { EmailPipePipe } from './common/pipes/email-pipe.pipe';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent],
+  declarations: [AppComponent, LoginComponent, FullComponent, WrapperComponent, MenuComponent, EmailPipePipe],
   imports: [
     BrowserModule,
     AppRoutingModule,
