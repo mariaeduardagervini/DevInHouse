@@ -13,4 +13,7 @@ export class MenuComponent {
     localStorage.setItem('logged', 'false');
     this.router.navigate(['/login']);
   }
+  navigateToHome() {
+    this.router.navigate(['/home']);
+  }
 }

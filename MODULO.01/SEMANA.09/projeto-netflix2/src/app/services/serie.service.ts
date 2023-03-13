@@ -8,11 +8,10 @@ import { Serie } from '../models/serie';
   providedIn: 'root',
 })
 export class SerieService {
-  private readonly API = 'http://localhost:3000/series';
   constructor(private http: HttpClient) {}
 
   getSeries(): Observable<Serie[]> {
-    return this.http.get<Serie[]>(`${this.API}`).pipe(
+    return this.http.get<Serie[]>(`${API_PATH}/series`).pipe(
       catchError(() => {
         throw new Error('Failed to reach the server!');
       }),
@@ -20,8 +19,8 @@ export class SerieService {
     );
   }
 
-  getIdSerie(id: string): Observable<Serie> {
-    return this.http.get<Serie>(`${this.API}/${id}`).pipe(
+  getSerie(id: string): Observable<Serie> {
+    return this.http.get<Serie>(`${API_PATH}/series/${id}`).pipe(
       catchError(() => {
         throw new Error('Failed to reach the server!');
       }),

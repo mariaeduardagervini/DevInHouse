@@ -1,1 +1,9 @@
-<p>serie works!</p>
+<div class="serie-container">
+  <ng-template #conteudoSerie>
+    <div class="container">
+      <img width="500" [src]="serie.image" alt="Serie's Poster" />
+      <h2>{{ serie.name }}</h2>
+      <p>{{ serie.description }}</p>
+    </div>
+  </ng-template>
+</div>

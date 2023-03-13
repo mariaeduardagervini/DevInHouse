@@ -7,14 +7,15 @@ import { Serie } from 'src/app/models/serie';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-export class HomeComponent implements OnInit {
-  @Input() public serie: any = {};
-  listarSeries: Serie[] = [];
-  constructor(private serieService: SerieService) {}
+export class HomeComponent {
+  @Input() public series: any = {};
 
-  ngOnInit(): void {
-    this.serieService.getSeries().subscribe((listarSeries) => {
-      this.listarSeries = listarSeries;
+  constructor(private serieService: SerieService) {
+    this.listSeries();
+  }
+  listSeries() {
+    this.serieService.getSeries().subscribe((series) => {
+      this.series = series;
     });
   }
 }

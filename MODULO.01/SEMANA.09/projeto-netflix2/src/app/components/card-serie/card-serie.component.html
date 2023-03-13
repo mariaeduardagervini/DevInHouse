@@ -1,2 +1,8 @@
-<img [src]="serie.imagem" />
-<p>{{ serie.nome }}</p>
+<div class="card-container">
+  <div (click)="navigateToSerie(serie.id)">
+    <img [src]="serie.image" alt="Series Image" />
+    <h4 class="titulo">
+      {{ serie.name }}
+    </h4>
+  </div>
+</div>

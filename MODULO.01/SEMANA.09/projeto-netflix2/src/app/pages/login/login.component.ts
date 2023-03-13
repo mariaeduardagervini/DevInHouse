@@ -21,14 +21,11 @@ export class LoginComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.iniciarDados();
+    this.getUsersList();
+    this.criarForm(new Usuario());
+    this.createLocalStorage(false);
   }
-
-  iniciarDados() {
-    this.createForm(new Usuario());
-  }
-
-  createForm(usuario: Usuario) {
+  criarForm(usuario: Usuario) {
     this.formUsuario = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: [
@@ -48,8 +45,29 @@ export class LoginComponent implements OnInit {
   get senha() {
     return this.formUsuario.get('senha')!;
   }
+  createLocalStorage(booleanValue: boolean) {
+    localStorage.setItem('logged', `${booleanValue}`);
+  }
+
+  getUsersList() {
+    this.usuarioService.getUsers().subscribe((usuarios) => {
+      this.listaUsuarios = usuarios;
+    });
+  }
+
+  findUser() {
+    this.listaUsuarios.find((usuario) => {
+      if (usuario.email === this.email.value) {
+        this.usuario = usuario;
+      }
+    });
+  }
 
   onSubmit() {
+    this.createLocalStorage(true);
     this.router.navigate(['/home']);
+    //} else {
+    // this.createLocalStorage(false);
+    //}
   }
 }

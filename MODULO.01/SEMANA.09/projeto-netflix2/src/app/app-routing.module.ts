@@ -1,4 +1,4 @@
-import { ContentComponent } from './content/content.component';
+import { ContentComponent } from './layouts/content/content.component';
 import { FullComponent } from './layouts/full/full.component';
 import { SerieComponent } from './pages/serie/serie.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -22,11 +22,11 @@ const routes: Routes = [
   {
     path: '',
     component: FullComponent,
-    //canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
-      { path: 'serie/:id', component: SerieComponent },
+      { path: 'serie', component: SerieComponent },
     ],
   },
 ];

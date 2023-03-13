@@ -1,0 +1,86 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "maria@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "email": "eduarda@email.com",
+      "senha": "654321"
+    }
+  ],
+
+  "series": [
+    {
+      "url": "https://www.netflix.com/title/80002479",
+      "name": "Peaky Blinders",
+      "contentType": "TVSeries",
+      "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.",
+      "contentRating": "18+",
+      "genre": "Period Pieces",
+      "poster": "https://occ-0-1492-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXD7VvO6vbz6j7xTtYzDGUiVicKFh8clARB1dQP8rzC2hLAkVELp5qumxuG9_NzYpaDeh8zDORmNXzzjRNFHcyGttKfE.jpg?r=b6a",
+      "formattedDuration": "",
+      "releasedDate": "2015-12-31",
+      "actors": "Cillian Murphy, Sam Neill, Helen McCrory, Paul Anderson, Iddo Goldberg, Annabelle Wallis, Sophie Rundle, Tom Hardy, Joe Cole, Ned Dennehy, Andy Nyman, Charlie Creed-Miles, Charlotte Riley, David Dawson, Jeffrey Postlethwaite, Matthew Postlethwaite, Ian Peck, Tony Pitts, Aidan Gillen, Adrien Brody, Charlie Murphy, Aimee-Ffion Edwards, Anya Taylor-Joy, Sam Claflin",
+      "director": "",
+      "creator": "Steven Knight",
+      "audio": "",
+      "subtitle": "",
+      "availableForOffline": "Available to download",
+      "numberOfSeasons": 5,
+      "seasonStartDate": "2015-12-31",
+      "source": "Netflix",
+      "sourceLink": "https://netflix.com",
+      "id": "bf331d6b-e855-548c-8623-c6e04220c993",
+      "scrapedAt": "05/03/2022 14:52:01"
+    },
+    {
+      "url": "https://www.netflix.com/title/80025678",
+      "name": "The Crown",
+      "contentType": "TVSeries",
+      "description": "Based on historical events, this series dramatizes the story of Queen Elizabeth II and the political and personal events that have shaped her reign.",
+      "contentRating": "18+",
+      "genre": "TV Dramas",
+      "poster": "https://occ-0-1492-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUuVVzIZY5Ym1ZQ9PvM6W15DnxeVNzqJcTFLOjyd4pmb3dE_WQ1YCMi-ysV5BYu8yimr8tSsUrmfAdS18k3ZSC-HJ7Qh.jpg?r=236",
+      "formattedDuration": "",
+      "releasedDate": "2016-11-4",
+      "actors": "Olivia Colman, Helena Bonham Carter, Tobias Menzies, Claire Foy, John Lithgow, Matt Smith, Vanessa Kirby, Gillian Anderson, Josh O'Connor, Emma Corrin, Marion Bailey, Jared Harris, Victoria Hamilton, Eileen Atkins, Jeremy Northam, Alex Jennings, Ben Miles, Pip Torrens, Will Keen, Harry Hadden-Paton, Daniel Ings, Greg Wise, Harriet Walter, Lia Williams, Matthew Goode, Anton Lesser, Ben Daniels, Jason Watkins, Charles Dance, Emerald Fennell, Erin Doherty",
+      "director": "",
+      "creator": "Peter Morgan",
+      "audio": "",
+      "subtitle": "",
+      "availableForOffline": "Available to download",
+      "numberOfSeasons": 4,
+      "seasonStartDate": "2016-11-4",
+      "source": "Netflix",
+      "sourceLink": "https://netflix.com",
+      "id": "83cec79a-95f0-5e9f-ab36-d4564d107a9f",
+      "scrapedAt": "05/03/2022 14:53:12"
+    },
+    {
+      "url": "https://www.netflix.com/title/80057281",
+      "name": "Stranger Things",
+      "contentType": "TVSeries",
+      "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+      "contentRating": "16+",
+      "genre": "Horror TV Serials",
+      "poster": "https://occ-0-1492-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXq_vQJf0hxGmUQqHnb8nXwpz8iEmzC2upISv1MYxfE2kXO-IouDyL-TuAAkSqEn-iPui5s3ax8In2XqquIQkQ7L7csL.jpg?r=a42",
+      "formattedDuration": "",
+      "releasedDate": "2016-7-15",
+      "actors": "Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown, Gaten Matarazzo, Caleb McLaughlin, Noah Schnapp, Sadie Sink, Natalia Dyer, Charlie Heaton, Joe Keery, Maya Hawke, Priah Ferguson, Brett Gelman, Dacre Montgomery, Cara Buono, Matthew Modine, Paul Reiser, Sean Astin, Shannon Purser",
+      "director": "",
+      "creator": "The Duffer Brothers",
+      "audio": "",
+      "subtitle": "",
+      "availableForOffline": "Available to download",
+      "numberOfSeasons": 3,
+      "seasonStartDate": "2016-7-15",
+      "source": "Netflix",
+      "sourceLink": "https://netflix.com",
+      "id": "264c0513-296b-51c3-8173-39170644b993",
+      "scrapedAt": "05/03/2022 14:54:38"
+    }
+  ]
+}
