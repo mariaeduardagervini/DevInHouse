@@ -1,5 +1,5 @@
 <div class="lista">
-  <div class="row">
-    <app-card-serie *ngFor="let item of series.item"> </app-card-serie>
+  <div class="row" *nfor="let series of serie">
+    <app-card-serie [serie]="series"></app-card-serie>
   </div>
 </div>

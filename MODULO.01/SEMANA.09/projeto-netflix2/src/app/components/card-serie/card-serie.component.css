@@ -8,11 +8,10 @@
   cursor: pointer;
   border-radius: 5px;
 }
-
-img {
-  width: 250px;
-  position: absolute;
-}
 h4 {
+  color: white;
+}
+
+p {
   color: white;
 }

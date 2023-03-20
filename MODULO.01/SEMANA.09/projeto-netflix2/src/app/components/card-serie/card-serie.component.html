@@ -1,8 +1,10 @@
-<div class="card-container">
-  <div (click)="navigateToSerie(serie.id)">
-    <img [src]="serie.image" alt="Series Image" />
-    <h4 class="titulo">
-      {{ serie.name }}
-    </h4>
-  </div>
+<div
+  [ngStyle]="{ backgroundImage: 'url(' + serie.image + ')' }"
+  class="card-container"
+>
+  <h4 class="titulo">{{ serie.name }}</h4>
 </div>
+
+<!--<div (click)="navigateToSerie(serie.id)">
+     
+  </div>-->

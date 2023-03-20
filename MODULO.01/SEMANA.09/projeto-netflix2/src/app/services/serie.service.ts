@@ -11,7 +11,7 @@ export class SerieService {
   constructor(private http: HttpClient) {}
 
   getSeries(): Observable<Serie[]> {
-    return this.http.get<Serie[]>(`${API_PATH}/series`).pipe(
+    return this.http.get<Serie[]>(`${API_PATH}series`).pipe(
       catchError(() => {
         throw new Error('Failed to reach the server!');
       }),
