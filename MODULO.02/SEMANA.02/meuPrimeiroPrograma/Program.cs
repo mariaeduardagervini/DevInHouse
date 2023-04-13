@@ -182,31 +182,46 @@
 	// 	Console.WriteLine(valor++); // valor = valor + 1
 	// }
 
-	// LISTAS
-		List<string> nomes = new List<string>{"Maria", "Eduarda"};
+	// LISTAS -  aula 04
 
-		nomes.Add("Luiz");
+		// List<string> nomes = new List<string>{"Maria", "Eduarda"};
+
+		// nomes.Add("Luiz");
 	
-		Console.WriteLine(nomes[1]);
+		// Console.WriteLine(nomes[1]);
 
-		nomes.Insert(1, "Roberta");
+		// nomes.Insert(1, "Roberta");
 
-		Console.WriteLine(nomes[1]);
+		// Console.WriteLine(nomes[1]);
 
-		Console.WriteLine("Imprimindo a posição 0: " + nomes.ElementAt(0));
+		// Console.WriteLine("Imprimindo a posição 0: " + nomes.ElementAt(0));
 
-		Console.WriteLine("Count: " + nomes.Count());
+		// Console.WriteLine("Count: " + nomes.Count());
 
-		Console.WriteLine("O nome Peterson existe na lista: " + nomes.Contains("Peterson"));
-		Console.WriteLine("O nome Maria existe na lista: " + nomes.Contains("Maria"));
+		// Console.WriteLine("O nome Peterson existe na lista: " + nomes.Contains("Peterson"));
+		// Console.WriteLine("O nome Maria existe na lista: " + nomes.Contains("Maria"));
 	
-		Console.WriteLine("Limpando a lista... ");
-		nomes.Clear();
+		// Console.WriteLine("Limpando a lista... ");
+		// nomes.Clear();
 
-		Console.WriteLine("Count: " + nomes.Count());
+		// Console.WriteLine("Count: " + nomes.Count());
 
-		Console.WriteLine("Imprimindo a primeira posição da lista, após limpar... ");
-		Console.WriteLine(nomes[0]);
+		// Console.WriteLine("Imprimindo a primeira posição da lista, após limpar... ");
+		// Console.WriteLine(nomes[0]);
+
+		// ARRAYS - aula 04
+		string[] nomes = {"Maria", "João", "José", "Marcos", "Marcelo", "Romeu"};
+
+		Console.WriteLine(nomes.Length);
+
+		nomes[5] = "Julieta";
+		Console.WriteLine(nomes.Length);
+		Console.WriteLine($"O nome na posição 5 é: {nomes[5]}");
+		//nomes[0] = "Romeu";
+		Console.WriteLine($"O nome Romeu existe no array? {nomes.Contains("Romeu")}");
+
+		// int[] numeros = new int[3];
+
 
 	 }
 }
