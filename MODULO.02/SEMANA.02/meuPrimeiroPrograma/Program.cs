@@ -93,7 +93,7 @@
 
 		// Variáveis
 		double numero1, numero2;
-		string operacao;
+		char operacao;
 
 		Console.WriteLine("Olá! Seja bem-vindo(a) a Calculadora!");
 
@@ -135,19 +135,19 @@
 		// MENU COM SWITCH CASE (OUTRAS ESTRUTURA CONDICIONAL)
 		switch (operacao)
 		{
-			case "+":
+			case '+':
 				Console.WriteLine(numero1 + numero2);
 				break;
-			case "-":
+			case '-':
 				Console.WriteLine(numero1 - numero2);
 				break;
-			case "*":
+			case '*':
 				Console.WriteLine(numero1 * numero2);
 				break;
-			case "/":
+			case '/':
 				Console.WriteLine(numero1 / numero2);
 				break;
-			case "?":
+			case '?':
 				Console.WriteLine("Saindo do sistema...");
 				break;
 			default:
@@ -158,7 +158,28 @@
 
 
 		// Saídas
-	}
+
+// EXEMPLO DE LAÇO DE REPETIÇÃO FOR
+	// for(int i = 1; i <= 20; i++) 
+	// {
+	// 	Console.Write(i + ", ");
+	// }
+	// Console.WriteLine("Fora do campo de repetição.")
+
+// EXEMPLO DE LAÇO DE REPETIÇÃO WHILE
+	// bool condicao = true;
+	// int valor = 0;
+	// while(condicao) 
+	// {
+	// 	if(valor == 10) {
+	// 	condicao = false;
+	// 	}
+	// 	Console.WriteLine(valor++); // valor = valor + 1
+	// }
+
+
+
+	 }
 }
 
 
