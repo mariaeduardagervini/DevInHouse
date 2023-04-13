@@ -89,55 +89,55 @@
 		// 	Console.WriteLine("O número é ímpar!");
 		// }
 
-		// EXEMPLO 07
+		// EXEMPLO 07 - CALCULADORA
 
 		// Variáveis
-		double numero1, numero2;
-		char operacao;
+		// double numero1, numero2;
+		// char operacao;
 
-		Console.WriteLine("Olá! Seja bem-vindo(a) a Calculadora!");
+		// Console.WriteLine("Olá! Seja bem-vindo(a) a Calculadora!");
 
-		do {
-			Console.WriteLine("Agora, escolha uma operação: ");
+		// do {
+		// 	Console.WriteLine("Agora, escolha uma operação: ");
 
-			Console.WriteLine("+ : SOMA");
-			Console.WriteLine("- : SUBTRAIR");
-			Console.WriteLine("* : MULTIPLICAR");
-			Console.WriteLine("/ : DIVIDIR");
-			Console.WriteLine("? : SAIR");
+		// 	Console.WriteLine("+ : SOMA");
+		// 	Console.WriteLine("- : SUBTRAIR");
+		// 	Console.WriteLine("* : MULTIPLICAR");
+		// 	Console.WriteLine("/ : DIVIDIR");
+		// 	Console.WriteLine("? : SAIR");
 			
-			// Entradas
-			Console.Write("\nDigite a operação escolhida: "); //\n quebra a linha
-			operacao = char.Parse(Console.ReadLine());
+		// 	// Entradas
+		// 	Console.Write("\nDigite a operação escolhida: "); //\n quebra a linha
+		// 	operacao = char.Parse(Console.ReadLine());
 			
-			if(operacao != '?') {
-				Console.WriteLine("Digite o primeiro número: ");
-				numero1 = int.Parse(Console.ReadLine());
-				Console.WriteLine("Digite o segundo número: ");
-				numero2 = int.Parse(Console.ReadLine());
+		// 	if(operacao != '?') {
+		// 		Console.WriteLine("Digite o primeiro número: ");
+		// 		numero1 = int.Parse(Console.ReadLine());
+		// 		Console.WriteLine("Digite o segundo número: ");
+		// 		numero2 = int.Parse(Console.ReadLine());
 
-				switch (operacao)
-				{
-				case '+':
-					Console.WriteLine(numero1 + numero2);
-					break;
-				case '-':
-					Console.WriteLine(numero1 - numero2);
-					break;
-				case '*':
-					Console.WriteLine(numero1 * numero2);
-					break;
-				case '/':
-					Console.WriteLine(numero1 / numero2);
-					break;
-				default:
-					Console.WriteLine("Opção inválida");
-					break;
-				}
-			}
-		} while (operacao != '?');
+		// 		switch (operacao)
+		// 		{
+		// 		case '+':
+		// 			Console.WriteLine(numero1 + numero2);
+		// 			break;
+		// 		case '-':
+		// 			Console.WriteLine(numero1 - numero2);
+		// 			break;
+		// 		case '*':
+		// 			Console.WriteLine(numero1 * numero2);
+		// 			break;
+		// 		case '/':
+		// 			Console.WriteLine(numero1 / numero2);
+		// 			break;
+		// 		default:
+		// 			Console.WriteLine("Opção inválida");
+		// 			break;
+		// 		}
+		// 	}
+		// } while (operacao != '?');
 		
-		Console.WriteLine("\nObrigado por usar a calculadora!");
+		// Console.WriteLine("\nObrigado por usar a calculadora!");
 		
 
 		// Processamentos/Operações
@@ -182,7 +182,31 @@
 	// 	Console.WriteLine(valor++); // valor = valor + 1
 	// }
 
+	// LISTAS
+		List<string> nomes = new List<string>{"Maria", "Eduarda"};
 
+		nomes.Add("Luiz");
+	
+		Console.WriteLine(nomes[1]);
+
+		nomes.Insert(1, "Roberta");
+
+		Console.WriteLine(nomes[1]);
+
+		Console.WriteLine("Imprimindo a posição 0: " + nomes.ElementAt(0));
+
+		Console.WriteLine("Count: " + nomes.Count());
+
+		Console.WriteLine("O nome Peterson existe na lista: " + nomes.Contains("Peterson"));
+		Console.WriteLine("O nome Maria existe na lista: " + nomes.Contains("Maria"));
+	
+		Console.WriteLine("Limpando a lista... ");
+		nomes.Clear();
+
+		Console.WriteLine("Count: " + nomes.Count());
+
+		Console.WriteLine("Imprimindo a primeira posição da lista, após limpar... ");
+		Console.WriteLine(nomes[0]);
 
 	 }
 }
