@@ -28,16 +28,20 @@
 		 	switch (operacao)
 		 	{
 		 		case '+':
-		 			Console.WriteLine(numero1 + numero2);
+		 			Console.WriteLine($"O resultado é: {numero1 + numero2}");
 		 			break;
 		 		case '-':
-		 			Console.WriteLine(numero1 - numero2);
+		 			Console.WriteLine($"O resultado é: {numero1 - numero2}");
 		 			break;
 		 		case '*':
-		 			Console.WriteLine(numero1 * numero2);
+		 			Console.WriteLine($"O resultado é: {numero1 * numero2}");
 		 			break;
 		 		case '/':
-		 			Console.WriteLine(numero1 / numero2);
+					if(numero2 == 0) {
+					Console.WriteLine("Não é possível dividir por 0");
+					} else {
+					Console.WriteLine($"O resultado é: {numero1 / numero2}");
+					}
 		 			break;
 		 		default:
 		 			Console.WriteLine("Opção inválida");
