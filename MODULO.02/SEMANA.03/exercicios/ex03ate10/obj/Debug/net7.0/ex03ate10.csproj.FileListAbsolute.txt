@@ -1,0 +1,15 @@
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.csproj.AssemblyReference.cache
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.AssemblyInfoInputs.cache
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.AssemblyInfo.cs
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.csproj.CoreCompileInputs.cache
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\bin\Debug\net7.0\ex03ate10.exe
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\bin\Debug\net7.0\ex03ate10.deps.json
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\bin\Debug\net7.0\ex03ate10.runtimeconfig.json
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\bin\Debug\net7.0\ex03ate10.dll
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\bin\Debug\net7.0\ex03ate10.pdb
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.dll
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\refint\ex03ate10.dll
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.pdb
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ex03ate10.genruntimeconfig.cache
+C:\Users\Maria Eduarda\DevInHouse\MODULO.02\SEMANA.03\exercicios\ex03ate10\obj\Debug\net7.0\ref\ex03ate10.dll
