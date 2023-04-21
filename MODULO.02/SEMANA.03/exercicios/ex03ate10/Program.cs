@@ -21,40 +21,65 @@ internal class Program
 	listaCarros.Add(carro2);
 	listaCarros.Add(carro3);
 
+	char opcao;
+	 
+		do {
+			Console.WriteLine("-------------------------");
+			Console.WriteLine("           MENU           ");
+			Console.WriteLine("--------------------------");
+			Console.WriteLine(" Informe a opção desejada: \n");
+			Console.WriteLine("1. Cadastrar Carro");
+			Console.WriteLine("2. Consultar Carros");
+			Console.WriteLine("3. Sair");
+			Console.Write("\nDigite a operação escolhida: ");
+			opcao = char.Parse(Console.ReadLine());
 
-	void cadastrarCarros() {
+			switch (opcao) 
+			{
+				case '1':
+					void cadastrarCarros() {
+					Console.Write("Digite a marca: ");
+					string marca = Console.ReadLine();
 
-		Console.Write("Digite a marca: ");
-		string marca = Console.ReadLine();
+					Console.Write("Digite o modelo: ");
+					string modelo = Console.ReadLine();
 
-		Console.Write("Digite o modelo: ");
-		string modelo = Console.ReadLine();
+					Console.Write("Digite a placa: ");
+					string placa = Console.ReadLine();
 
-		Console.Write("Digite a placa: ");
-		string placa = Console.ReadLine();
+					Console.Write("Digite a cor: ");
+					string cor = Console.ReadLine();
 
-		Console.Write("Digite a cor: ");
-		string cor = Console.ReadLine();
+					Console.Write("Digite o seu nome: ");
+					string nome = Console.ReadLine();
 
-		Console.Write("Digite o seu nome: ");
-		string nome = Console.ReadLine();
+					Console.Write("Digite o cpf: ");
+					string cpf = Console.ReadLine();
 
-		Console.Write("Digite o cpf: ");
-		string cpf = Console.ReadLine();
+					Console.Write("Digite o telefone: ");
+					string telefone = Console.ReadLine();
 
-		Console.Write("Digite o telefone: ");
-		string telefone = Console.ReadLine();
+					Proprietario proprietario4 = new Proprietario(nome,cpf, telefone);
+					Carro carro4 = new Carro(marca, modelo, placa, cor, proprietario4);
 
-		Proprietario proprietario4 = new Proprietario(nome,cpf, telefone);
-		Carro carro4 = new Carro(marca, modelo, placa, cor, proprietario4);
+					listaCarros.Add(carro4);
+					}
+					cadastrarCarros();
+					break;
+				case '2':
+					foreach(Carro carro in listaCarros){
+						Console.WriteLine(carro.ListarCadastros());
+					}
+					break;
+				case '3':
+					Console.WriteLine("Saindo...");
+				break;
+				default:
+		 			Console.WriteLine("Opção inválida");
+		 			break;
+			}
 
-		listaCarros.Add(carro4);
-	};
-	cadastrarCarros();
-	
-	foreach(Carro carro in listaCarros){
-       Console.WriteLine(carro.ListarCadastros());
-		 }
-
+		} while (opcao != '3');
+			Console.WriteLine("\nPrograma Encerrado!");
 	}
-}
+	}
