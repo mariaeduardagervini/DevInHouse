@@ -16,8 +16,8 @@ namespace Classes
         Proprietario = proprietario;
         }
 
-        public string Imprimir() {
-            return($"Marca: {Marca}, Modelo: {Modelo}, Placa: {Placa}, Cor: {Cor}, Proprietario: {Proprietario.Nome}");
+        public string ListarCadastros() {
+            return($"\n- Marca: {Marca}, Modelo: {Modelo}, Placa: {Placa}, Cor: {Cor} \n Proprietário: {Proprietario.Nome}, CPF: {Proprietario.CPF}, Telefone: {Proprietario.Telefone} \n");
         }
        	}
 }

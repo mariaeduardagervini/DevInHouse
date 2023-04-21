@@ -53,7 +53,7 @@ internal class Program
 	cadastrarCarros();
 	
 	foreach(Carro carro in listaCarros){
-       Console.WriteLine(carro.Imprimir());
+       Console.WriteLine(carro.ListarCadastros());
 		 }
 
 	}
