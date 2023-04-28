@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aula.01\\aula.01.csproj",
+      "projectUniqueName": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aulas\\aula.01.csproj",
       "projectName": "aula.01",
-      "projectPath": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aula.01\\aula.01.csproj",
+      "projectPath": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aulas\\aula.01.csproj",
       "packagesPath": "C:\\Users\\Maria Eduarda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aula.01\\obj\\",
+      "outputPath": "C:\\Users\\Maria Eduarda\\DevInHouse\\MODULO.02\\SEMANA.04\\aulas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maria Eduarda\\AppData\\Roaming\\NuGet\\NuGet.Config"

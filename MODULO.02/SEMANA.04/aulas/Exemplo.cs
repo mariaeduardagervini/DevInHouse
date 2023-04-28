@@ -1,9 +1,9 @@
-public class Exemplo
-{
+// public class Exemplo
+// {
 
-public string nome;
-public int cpf; 
-}
+// public string nome;
+// public int cpf; 
+// }
 
 // Principais modificadores de acesso
 

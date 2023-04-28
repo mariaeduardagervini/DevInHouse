@@ -1,21 +1,21 @@
-﻿internal class Program {
+﻿// internal class Program {
 
-	private static void Main(string[] args) 
-	{
-		Console.WriteLine("Hello, World!");
+// 	private static void Main(string[] args) 
+// 	{
+// 		// Console.WriteLine("Hello, World!");
 
-		Exemplo exemplo01 = new Exemplo(); // Instanciando um objeto da classe Exemplo
+// 		// Exemplo exemplo01 = new Exemplo(); // Instanciando um objeto da classe Exemplo
 
-		exemplo01.nome = "Maria";
-		exemplo01.cpf = 123;
+// 		// exemplo01.nome = "Maria";
+// 		// exemplo01.cpf = 123;
 
-	}
-}
+// 	}
+// }
 
-// Encapsulamento
+// // Encapsulamento
 
-// Proteger dados de uma classe
-// GET = Ler
-// SET = Alterar
+// // Proteger dados de uma classe
+// // GET = Ler
+// // SET = Alterar
 
-// Permissionar, impedir que sejam acessados diretamente
+// // Permissionar, impedir que sejam acessados diretamente

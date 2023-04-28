@@ -23,11 +23,28 @@ namespace app
 
 		// PARTE 2
 
-		Contador c1 = new Contador(); // instância objeto 1
-		Contador c2 = new Contador(); // instância objeto 2
+		// Contador c1 = new Contador(); // instância objeto 1
+		// Contador c2 = new Contador(); // instância objeto 2
 
-		int Total = Contador.Total;
-		
+		// int Total = Contador.Total;
+
+		// PARTE 3
+
+		// Modificador de acesso static para Classes
+		// Ao definir uma classe como static, não tem a necessidade de criar instâncias dessa classe
+		// Não pode ser instanciada, uma classe estática
+		// Declara uma classe como estática, todos os membros da classe devem ser também estáticos
+
+		int resultadoSoma = Calculadora.Soma(10,5);
+		int resultadoSubtracao = Calculadora.Subtracao(10,5);
+
+		Console.WriteLine($"O resultado de soma é {resultadoSoma}, e o da subtração é: {resultadoSubtracao}");
+
+		// Não é possível devido a classe Calculadora ser ESTÁTICA
+		// Calculadora cal1 = new Calculadora();
+		// Não permite HERANÇA
+
+
 
 		}
 	}
