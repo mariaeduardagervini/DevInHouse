@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,32 +7,33 @@ namespace Ex03
 {
 	public class ContaBancaria
 	{
-		private string numero;
+		private int numero;
 		private Cliente cliente;
-		public ContaBancaria(string numero, Cliente cliente)
+		private Banco banco;
+
+		public ContaBancaria(int numero, Cliente cliente, Banco banco)
 		{
 			this.numero = numero;
 			this.cliente = cliente;
+			this.banco = banco;
 		}
-		public void ExibirDados()
-		{
-			Console.WriteLine($"Número da conta: {numero}");
-			Console.WriteLine($"Nome do cliente: {cliente.nome}");
-			Console.WriteLine($"CPF do cliente: {cliente.cpf}");
-		}
-			Banco banco1 = new Banco();
 
 		public void Depositar(double valor)
 		{
-			banco1.depositar(valor);
+			banco.depositar(valor);
 		}
 		public void Sacar(double valor)
 		{
-			banco1.sacar(valor);
+			banco.sacar(valor);
 		}
-			public override string ToString()
+		public void ExibirDados()
 		{
-			return $"Dados da conta: \nConta: {numero} \n Nome: {cliente.nome}, CPF: {cliente.cpf}";
+			Console.WriteLine("Conta: " + numero);
+			Console.WriteLine(cliente.ToString());
+		}
+		public override String ToString()
+		{
+			return "Conta: " + numero + ", " + cliente.ToString() + ", " + banco.ToString();
 		}
 	}
 }

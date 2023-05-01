@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,15 +7,18 @@ namespace Ex03
 {
 	public class Cliente
 	{
-		private string Nome { 
-			get { return nome; }
-			}
-		private string cpf;
+		private String nome;
+		private String cpf;
 
 		public Cliente(string nome, string cpf)
 		{
 			this.nome = nome;
 			this.cpf = cpf;
 		}
+		public override string ToString()
+		{
+			return "Nome: " + nome + ", CPF: " + cpf;
+		}
 	}
 }
+

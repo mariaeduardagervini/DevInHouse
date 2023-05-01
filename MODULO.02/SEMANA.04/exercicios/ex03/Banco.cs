@@ -11,15 +11,15 @@ namespace Ex03
 
 		public void depositar(double valor)
 		{
-			saldo -= valor;
+			saldo += valor;
 		}
 		public void sacar(double valor)
 		{
-			saldo += valor;
+			saldo -= valor;
 		}
 		public override string ToString()
 		{
-			return base.ToString();
+			return "Saldo: " + saldo;
 		}
 	}
 }
