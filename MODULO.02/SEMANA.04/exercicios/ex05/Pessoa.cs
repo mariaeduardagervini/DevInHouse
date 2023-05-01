@@ -7,7 +7,7 @@ namespace ex05
 {
 	public class Pessoa
 	{
-		private String nome;
+		private string nome;
 		private int idade;
 
 		public String Nome
