@@ -1,1 +1,1 @@
-﻿
+﻿using BancoFullStack.Model;
