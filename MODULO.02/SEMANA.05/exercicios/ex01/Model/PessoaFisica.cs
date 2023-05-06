@@ -26,7 +26,7 @@ namespace BancoFullStack.Model
 
             }
         public override string ResumoCliente(){
-            return $"{base.ResumoCliente()} | Cpf: {CPF} | Nome: {Nome} | DataNascimento: {DataNascimento.ToShortDateString()}" ;
+            return $"{base.ResumoCliente()} | CPF: {CPF} | Nome: {Nome} | Data de Nascimento: {DataNascimento.ToShortDateString()}" ;
         }
 
     }
