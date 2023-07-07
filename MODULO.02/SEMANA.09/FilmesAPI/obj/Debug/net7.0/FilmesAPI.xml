@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmesAPI</name>
+    </assembly>
+    <members>
+        <member name="T:FilmesAPI.Migrations.CriacaoBancoDadosFilmes">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.CriacaoBancoDadosFilmes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.CriacaoBancoDadosFilmes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.CriacaoBancoDadosFilmes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesAPI.Migrations.AlteracaoDadosTabelas">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.AlteracaoDadosTabelas.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.AlteracaoDadosTabelas.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.AlteracaoDadosTabelas.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmesController.Get">
+            <summary> 
+            Requisição de lista mocada de filmes
+            </summary>
+            <returns> Retorna uma lista mocada de filmes </returns>
+            <response code="200">Sucesso no retorno da lista mocada de filmes </response> 
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmesController.Get(System.Int32)">
+            <summary> 
+            Requisição do item de uma lista mocada de filmes
+            </summary>
+            <param name="id"> Id do filme </param>
+            <returns> Retorno do objeto Filme </returns>
+            <response code="404">Filme não encontrado </response>
+            <response code="200">Sucesso no retorno do objeto Filme </response>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmesController.Post(FilmesApi.Models.Filme)">
+            <summary> 
+            Criaçãp de um filme
+            </summary>
+            <param name="filme">Objeto filme </param>
+            <returns> Criação do Filme </returns>
+            <response code="201">Objeto Filme criado com sucesso </response>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmesController.Put(System.Int32,FilmesApi.Models.Filme)">
+            <summary> 
+            Atualização do filme
+            </summary>
+            <param name="id"> Id do filme </param>
+            <param name="filme"> Objeto filme </param>
+            <returns> Atualização do Filme </returns>
+            <response code="404">Filme não encontrado </response>
+            <response code="204">Atualização do filme realizada com sucesso </response>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmesController.Delete(System.Int32)">
+            <summary> 
+            Remoção do filme
+            </summary>
+            <param name="id"> Id do filme </param>
+            <returns> Remoção do Filme </returns>
+            <response code="404">Filme não encontrado </response>
+            <response code="204">Remoção do filme realizada com sucesso </response>
+        </member>
+    </members>
+</doc>

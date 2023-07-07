@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmesAPI", "FilmesAPI.csproj", "{AC3DC461-649D-41F0-A9A2-9EC14A0EC346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesAPI", "FilmesAPI.csproj", "{AC3DC461-649D-41F0-A9A2-9EC14A0EC346}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiFilmeDataBaseFirst", "..\WebApiFilmeDataBaseFirst\WebApiFilmeDataBaseFirst.csproj", "{4BAF2CD6-7FC7-4BF0-9D0C-2B14DDEABCE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AC3DC461-649D-41F0-A9A2-9EC14A0EC346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3DC461-649D-41F0-A9A2-9EC14A0EC346}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3DC461-649D-41F0-A9A2-9EC14A0EC346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAF2CD6-7FC7-4BF0-9D0C-2B14DDEABCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAF2CD6-7FC7-4BF0-9D0C-2B14DDEABCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAF2CD6-7FC7-4BF0-9D0C-2B14DDEABCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAF2CD6-7FC7-4BF0-9D0C-2B14DDEABCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
