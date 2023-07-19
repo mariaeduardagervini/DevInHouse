@@ -15,7 +15,7 @@ public class Aluno
     public string Email { get; set; }
     public DateTime DataNascimento { get; set; }
     public virtual List<Turma> Turmas { get; set; }
-
+    public virtual List<Boletim> Boletins { get; set; }
     public Aluno()
     {
 
