@@ -101,15 +101,23 @@ namespace Escola.API.DataBase
                                              .HasColumnType("int")
                                              .HasColumnName("TURMA_ID");
 
-          //  modelBuilder.Entity<AlunoTurma>().HasOne(typeof(Aluno)).WithMany().HasForeignKey();
+            modelBuilder.Entity<Boletim>().ToTable("BOLETIM");
 
-          //  modelBuilder.Entity<Aluno>().HasMany(x => x.Turmas)
-             //                           .WithMany(x => x.Alunos)
-              //                          .UsingEntity<AlunoTurma>(a => a.HasOne<Aluno>(x => x.Aluno).WithMany().HasForeignKey(x => x.AlunoId)
-                 //                                                t => t.HasOne<Turma>(x => x.Turma).WithMany().HasForeignKey(x => x.TurmaId)
-                  //                                              );
+            modelBuilder.Entity<Boletim>().Property(X => X.Data)
+                                          .HasColumnType("date")
+                                          .HasColumnName("DATA");
 
+            modelBuilder.Entity<Boletim>().HasOne(x => x.Aluno)
+                                          .WithMany(x => x.Boletins)
+                                          .HasForeignKey(x => x.AlunoId);
 
+            modelBuilder.Entity<Boletim>().HasMany(x => x.NotasMaterias)
+                                          .WithOne(x => x.Boletim)
+                                          .HasForeignKey(x => x.BoletimId);
+
+            modelBuilder.Entity<NotasMateria>().HasOne(x => x.Materia)
+                                               .WithMany(x => x.NotasMaterias)
+                                               .HasForeignKey(x => x.MateriaId);
         }
     }
 }

@@ -9,5 +9,6 @@
         public virtual Aluno Aluno { get; set; }
 
         public int AlunoId { get; set;}
+        public List<NotasMateria> NotasMaterias { get; set; }
 
     }
