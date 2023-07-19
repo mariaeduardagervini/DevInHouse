@@ -38,6 +38,8 @@ public class Startup
         services.AddScoped<IAlunoRepository, AlunoRepository>();
         services.AddScoped<ITurmaRepository, TurmaRepository>();
 
+        services.AddScoped<IBoletimRepository, BoletimRepository>();
+
         services.AddMemoryCache();
 
 
