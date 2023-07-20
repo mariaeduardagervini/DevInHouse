@@ -31,13 +31,14 @@ public class Startup
     
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddDbContext<EscolaDbContexto>();
         services.AddControllers();
 
         services.AddScoped<IAlunoService, AlunoService>();
+        services.AddScoped<IBoletimServices, BoletimService>();
+        
+        services.AddDbContext<EscolaDbContexto>();       
         services.AddScoped<IAlunoRepository, AlunoRepository>();
         services.AddScoped<ITurmaRepository, TurmaRepository>();
-
         services.AddScoped<IBoletimRepository, BoletimRepository>();
 
         services.AddMemoryCache();

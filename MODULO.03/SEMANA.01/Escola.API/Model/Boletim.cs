@@ -1,4 +1,6 @@
-﻿namespace Escola.API.Model;
+﻿using Escola.API.DTO;
+
+namespace Escola.API.Model;
 
     public class Boletim
     {
@@ -14,4 +16,14 @@
         {
             Data = boletim.Data;
         }
-    }
+
+        public Boletim() { }
+
+        public Boletim(BoletimDTO boletim)
+        {
+            Id = boletim.Id;
+            Data = boletim.Data;
+            AlunoId = boletim.AlunoId;
+        }
+
+}

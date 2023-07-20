@@ -61,7 +61,7 @@ namespace Escola.API.Services
 
         public List<Boletim> ObterPorAluno(int alunoId)
         {
-            throw new NotImplementedException();
+            return ObterPorAluno(alunoId);
         }
     }
 }
