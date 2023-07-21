@@ -1,6 +1,7 @@
 ﻿using Escola.API.Model;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Escola.API.DataBase
 {
     public class DbContexto : DbContext

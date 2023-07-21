@@ -14,7 +14,14 @@ namespace Escola.API.DataBase.Repositories;
             _context = contexto;
         }
 
-        public virtual TEntity Atualizar(TEntity entity)
+    protected readonly DbContexto _contextDb = new DbContexto();
+    public BaseRepository(DbContexto contextoDb)
+    {
+        _contextDb = contextoDb;
+    }
+
+
+    public virtual TEntity Atualizar(TEntity entity)
         {
             _context.Set<TEntity>().Update(entity);
             _context.SaveChanges();

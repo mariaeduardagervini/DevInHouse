@@ -1,4 +1,5 @@
-﻿using Escola.API.Interfaces.Repositories;
+﻿using DocumentFormat.OpenXml.Office2010.Excel;
+using Escola.API.Interfaces.Repositories;
 using Escola.API.Interfaces.Services;
 using Escola.API.Model;
 
@@ -20,11 +21,11 @@ namespace Escola.API.Services
             return ObterPorId(id);
         }
 
-        public Boletim Atualizar(Boletim boletim)
+        public Boletim Atualizar(Boletim boletim, int id)
         {
             var boletimDb = _boletimRepository.ObterPorId(id);
 
-                if(boletimDb == null)
+            if (boletimDb == null)
             {
                 throw new NotImplementedException("");
             }
@@ -62,6 +63,11 @@ namespace Escola.API.Services
         public List<Boletim> ObterPorAluno(int alunoId)
         {
             return ObterPorAluno(alunoId);
+        }
+
+        public Boletim Atualizar(Boletim boletim)
+        {
+            throw new NotImplementedException();
         }
     }
 }
