@@ -30,7 +30,7 @@ namespace Escola.API.Controllers
             try
             {
                 var aluno = new Aluno(alunoDTO);
-                //Chamada da service
+             
                 aluno = _alunoService.Criar(aluno);
 
                 return Ok(new AlunoDTO(aluno));
@@ -38,7 +38,7 @@ namespace Escola.API.Controllers
             catch (RegistroDuplicadoException ex)
             {
                 return StatusCode(StatusCodes.Status409Conflict, ex.Message);
-                //return Conflict("email já existe")
+              
             }
             catch (Exception ex)
             {
@@ -80,7 +80,7 @@ namespace Escola.API.Controllers
             catch (RegistroDuplicadoException ex)
             {
                 return StatusCode(StatusCodes.Status409Conflict, ex.Message);
-                //return Conflict("email já existe")
+               
             }
             catch (NotFoundException ex)
             {
@@ -106,8 +106,7 @@ namespace Escola.API.Controllers
 
                 aluno = _alunoService.Atualizar(aluno);
 
-                //var alunodto = new AlunoDTO(aluno);
-                //_memoryCache.Set<AlunoDTO>($"aluno:{id}", alunodto, new TimeSpan(0, 0, 20));
+           
 
                 _memoryCache.Remove($"aluno:{id}");
 

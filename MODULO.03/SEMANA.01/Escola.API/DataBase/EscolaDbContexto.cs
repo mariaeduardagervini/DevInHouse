@@ -15,7 +15,7 @@ namespace Escola.API.DataBase
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Password=P@ssword;Persist Security Info=True;User ID=sa;Initial Catalog=EscolaDB-Audaces;Data Source=tcp:localhost,1433");
+            optionsBuilder.UseSqlServer("Password=P@ssword;Persist Security Info=True;User ID=sa;Initial Catalog=EscolaDB-Audaces;Data Source=tcp:localhost,5257");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -118,6 +118,8 @@ namespace Escola.API.DataBase
             modelBuilder.Entity<NotasMateria>().HasOne(x => x.Materia)
                                                .WithMany(x => x.NotasMaterias)
                                                .HasForeignKey(x => x.MateriaId);
+
+
         }
     }
 }
