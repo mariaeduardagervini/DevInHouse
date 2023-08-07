@@ -15,7 +15,9 @@ namespace Escola.API.Services
         }
 
         public NotasMateria Atualizar(NotasMateria notasMateria)
+
         {
+            ValidarNotas(notasMateria);
             var notasMateriaDb = _notasMateriaRepository.ObterPorId(notasMateria.Id);
 
             notasMateriaDb.Update(notasMateria);
