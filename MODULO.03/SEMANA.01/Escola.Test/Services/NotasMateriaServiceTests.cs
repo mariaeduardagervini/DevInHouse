@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Escola.API.Interfaces.Repositories;
 using Escola.API.Services;
-
-
+using Newtonsoft.Json;
 
 namespace Escola.Test.Services
 {
@@ -30,11 +29,11 @@ namespace Escola.Test.Services
 
                 var notasMateriaService = new NotasMateriaService((API.Interfaces.Services.INotasMateriaService)notasMateriasRepositoryMock.Object);
 
-                var notasMateria = new NotasMateria() { Nota = -1 };
+                var notasMateria = new NotasMateria() { Nota = 12 };
 
                 var expectedParam = "Nota";
                 var expectedMessage = "Nota deve ser maior que 0";
-                var expectedActualValue = -1;
+                var expectedActualValue = 12;
 
                 var ex = Assert.Throws<ArgumentOutOfRangeException>(() => { notasMateriaService.Cadastrar(notasMateria); });
 
@@ -45,6 +44,33 @@ namespace Escola.Test.Services
         }
 
 
+        [Test]
+        public void Cadastrar_NotaMaiorQueZeroeMenorqueDez_returnSucess()
+        {
+            var notasMateriasRepositoryMock = new Mock<INotasMateriaRepository>();
+
+            notasMateriasRepositoryMock.Setup(x => x.Inserir(It.IsAny<NotasMateria>()))
+                                                    .Returns<NotasMateria>(x =>
+                                                    {
+                                                        x.Id = 10;
+                                                        return x;
+                                                    });
+
+            var notasMateriaService = new NotasMateriaService((API.Interfaces.Services.INotasMateriaService)notasMateriasRepositoryMock.Object);
+
+            var notasMateria = new NotasMateria() { Nota = 8 };
+
+            var expectedNotasMateria = new NotasMateria() { Nota = 8, Id = 10 };
+            
+
+             var result = notasMateriaService.Cadastrar(notasMateria);
+
+
+            Assert.AreEqual(JsonConvert.SerializeObject(expectedNotasMateria), JsonConvert.SerializeObject(result));
         }
+
+
+
     }
+}
 

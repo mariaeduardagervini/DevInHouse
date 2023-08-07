@@ -27,6 +27,15 @@ namespace Escola.API.Services
 
         public NotasMateria Cadastrar (NotasMateria notasMateria)
         {
+            ValidarNotas(notasMateria);
+
+            _notasMateriaRepository.Inserir(notasMateria);
+
+            return notasMateria;
+        }
+
+        private void ValidarNotas(NotasMateria notasMateria)
+        {
             if (notasMateria.Nota < 0)
             {
                 throw new ArgumentOutOfRangeException("Nota", notasMateria.Nota, "Nota deve ser maior ou igual a 0");
@@ -35,11 +44,6 @@ namespace Escola.API.Services
             {
                 throw new ArgumentOutOfRangeException("Nota", notasMateria.Nota, "Nota deve ser menor ou igual a 10");
             }
-
-
-            _notasMateriaRepository.Inserir(notasMateria);
-
-            return notasMateria;
         }
 
         public NotasMateria Excluir(int id)
