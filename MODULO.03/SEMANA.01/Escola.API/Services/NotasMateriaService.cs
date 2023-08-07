@@ -29,7 +29,11 @@ namespace Escola.API.Services
         {
             if (notasMateria.Nota < 0)
             {
-                throw new ArgumentOutOfRangeException("notasMateriaService");
+                throw new ArgumentOutOfRangeException("Nota", notasMateria.Nota, "Nota deve ser maior ou igual a 0");
+            }
+            else if (notasMateria.Nota > 10)
+            {
+                throw new ArgumentOutOfRangeException("Nota", notasMateria.Nota, "Nota deve ser menor ou igual a 10");
             }
 
 
