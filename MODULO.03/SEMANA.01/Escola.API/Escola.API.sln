@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escola.API", "Escola.API.csproj", "{403F6EF0-C904-4200-804F-36FE071CFA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escola.Test", "..\Escola.Test\Escola.Test.csproj", "{F933701C-FA3C-4D50-86BA-A5F34D2E15A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escola.Test", "..\Escola.Test\Escola.Test.csproj", "{F933701C-FA3C-4D50-86BA-A5F34D2E15A1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{403F6EF0-C904-4200-804F-36FE071CFA57} = {403F6EF0-C904-4200-804F-36FE071CFA57}
 	EndProjectSection
