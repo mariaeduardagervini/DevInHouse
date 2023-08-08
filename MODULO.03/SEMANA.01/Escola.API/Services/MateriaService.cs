@@ -29,5 +29,23 @@ namespace Escola.API.Services
             return materiaDb;
 
         }
+        public Materia Cadastrar(Materia materia)
+        {
+            if (_materiaRepository.ObterPorNome(materia.Nome) != null)
+            {
+                throw new RegistroDuplicadoException("Matéria já cadastrada!");
+            }
+
+            _materiaRepository.Inserir(materia);
+            return materia;
+        }
+
+        public void Excluir(int id)
+        {
+            var materia = _materiaRepository.ObterPorId(id) ?? throw new NotFoundException();
+
+            _materiaRepository.Excluir(materia);
+          
+        }
     }
 }
