@@ -1,6 +1,6 @@
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
-const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList } = require('graphql');
+const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList, GraphQLDirective } = require('graphql');
 
 const app = express();
 const PORT = 3000;
@@ -12,8 +12,24 @@ const UserType = new GraphQLObjectType({
     name: { type: GraphQLString },
     age: { type: GraphQLInt },
     profession: { type: GraphQLString },
+    email: { type: new GraphQLNonNull(GraphQLString), directives: [{ name: 'email' }] },
   },
 });
+
+const EmailValidationDirective = new GraphQLDirective({
+  name: 'email',
+  locations: [DirectiveLocation.FIELD],
+  args: {},
+  resolve: (resolve, source, args, context, info) => {
+    const value = resolve();
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+    if (!emailRegex.test(value)) {
+      throw new Error(`O valor "${value}" não é um e-mail válido.`);
+    }
+    return value;
+  },
+});
+
 
 const PostType = new GraphQLObjectType({
   name: 'Post',
@@ -26,8 +42,8 @@ const PostType = new GraphQLObjectType({
 });
 
 const users = [
-  { id: '1', name: 'Maria Gervini', age: 30, profession: 'Developer' },
-  { id: '2', name: 'João Silva', age: 28, profession: 'Designer' },
+  { id: '1', name: 'Maria Gervini', age: 30, profession: 'Developer',email: 'maria@email.com' },
+  { id: '2', name: 'João Silva', age: 28, profession: 'Designer', email: 'joao@email.com' },
 ];
 
 const rootQueryType = new GraphQLObjectType({
@@ -90,7 +106,8 @@ const rootMutationType = new GraphQLObjectType({
 
 const schema = new GraphQLSchema({
   query: rootQueryType,
-  mutation: rootMutationType
+  mutation: rootMutationType,
+  directives: [EmailValidationDirective]
 });
 
 app.use('/graphql', graphqlHTTP({ schema, graphiql: true }));
