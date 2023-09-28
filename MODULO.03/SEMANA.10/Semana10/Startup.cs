@@ -19,10 +19,14 @@ namespace Semana10
             services.AddGraphQLServer()
            .AddQueryType<Customer>();
 
+            services.AddGraphQLServer()
+           .AddQueryType<Order>();
+
             services.AddHttpContextAccessor();
 
             services.AddSingleton<IProductService, ProductService>();
             services.AddSingleton<ICustomerService, CustomerService>();
+            services.AddSingleton<IOrderService, OrderService>();
 
         }
 
