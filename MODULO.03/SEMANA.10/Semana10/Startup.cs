@@ -16,9 +16,14 @@ namespace Semana10
             services.AddGraphQLServer()
                     .AddQueryType<Product>();
 
+            services.AddGraphQLServer()
+           .AddQueryType<Customer>();
+
             services.AddHttpContextAccessor();
 
             services.AddSingleton<IProductService, ProductService>();
+            services.AddSingleton<ICustomerService, CustomerService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
