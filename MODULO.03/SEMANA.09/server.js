@@ -61,9 +61,33 @@ const rootQueryType = new GraphQLObjectType({
     },
   },
 });
+const rootMutationType = new GraphQLObjectType({
+  name: 'Mutation',
+  fields: {
+    updatePostTitle: {
+      type: PostType, 
+      args: {
+        postId: { type: GraphQLString }, 
+        newTitle: { type: GraphQLString }, 
+      },
+      resolve: (parent, args) => {
+        const { postId, newTitle } = args;
+        const postToUpdate = posts.find((post) => post.id === postId);
+        if (!postToUpdate) {
+          return null;
+        }
+        postToUpdate.title = newTitle;
+        return postToUpdate;
+      },
+    },
+  },
+});
+
+
 
 const schema = new GraphQLSchema({
   query: rootQueryType,
+  mutation: rootMutationType
 });
 
 app.use('/graphql', graphqlHTTP({ schema, graphiql: true }));
