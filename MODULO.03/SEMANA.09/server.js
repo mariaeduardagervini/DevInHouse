@@ -41,6 +41,9 @@ const rootQueryType = new GraphQLObjectType({
       resolve: (parent, args) => {
         const { id } = args;
         const user = users.find((user) => user.id === id)
+        if(!user) {
+          throw new Error(`Usuário com ID ${id} não encontrado`)
+        }
         return user;
       },
     },
