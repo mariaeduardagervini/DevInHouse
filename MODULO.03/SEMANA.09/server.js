@@ -46,6 +46,35 @@ const users = [
   { id: '2', name: 'João Silva', age: 28, profession: 'Designer', email: 'joao@email.com' },
 ];
 
+const authors = [
+  { id: '1', name: 'JK Rowling' },
+  { id: '2', name: 'Dan Brown' },
+];
+
+const books = [
+  { id: '1', title: 'Harry Potter', authorId: '1' },
+  { id: '2', title: 'Animais Fantásticos', authorId: '1' },
+  { id: '3', title: 'O Código da Vinci', authorId: '2' },
+];
+
+const AuthorType = new GraphQLObjectType({
+  name: 'Author',
+  fields: {
+    id: { type: GraphQLString },
+    name: { type: GraphQLString },
+  },
+});
+
+const BookType = new GraphQLObjectType({
+  name: 'Book',
+  fields: {
+    id: { type: GraphQLString },
+    title: { type: GraphQLString },
+    authorId: { type: GraphQLString },
+  },
+});
+
+
 const rootQueryType = new GraphQLObjectType({
   name: 'Query',
   fields: {
@@ -76,6 +105,18 @@ const rootQueryType = new GraphQLObjectType({
             publishDate: '2023-09-08',
           },
         ];
+      },
+      getAuthorBooks: {
+        type: new GraphQLList(GraphQLString), 
+        args: {
+          authorId: { type: GraphQLString },
+        },
+        resolve: async (parent, args) => {
+          const { authorId } = args;
+          return books
+            .filter((book) => book.authorId === authorId)
+            .map((book) => book.title);
+        },
       },
     },
   },
