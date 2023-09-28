@@ -25,24 +25,28 @@ const PostType = new GraphQLObjectType({
   },
 });
 
+const users = [
+  { id: '1', name: 'Maria Gervini', age: 30, profession: 'Developer' },
+  { id: '2', name: 'João Silva', age: 28, profession: 'Designer' },
+];
+
 const rootQueryType = new GraphQLObjectType({
   name: 'Query',
   fields: {
     getUser: {
       type: UserType,
-      resolve: () => {
-        return {
-          id: '1',
-          name: 'Maria Gervini',
-          age: 30,
-          profession: 'Developer',
-        };
+      args: {
+        id:{ type: GraphQLString }
+      },
+      resolve: (parent, args) => {
+        const { id } = args;
+        const user = users.find((user) => user.id === id)
+        return user;
       },
     },
     getAllPosts: {
       type: new GraphQLList(PostType),
       resolve: () => {
-        // Retorna uma lista resumida de posts fictícios
         return [
           {
             title: 'Post 1',
