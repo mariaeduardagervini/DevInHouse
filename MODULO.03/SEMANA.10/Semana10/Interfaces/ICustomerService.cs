@@ -3,6 +3,7 @@
 public interface ICustomerService
 {
     Customer GetCustomerById(int id);
+    Customer UpdateCustomerEmail(int id, string newEmail);
 }
 
 public class CustomerService : ICustomerService
@@ -13,6 +14,15 @@ public class CustomerService : ICustomerService
         new Customer { Id = 2, Name = "João", Email = "joao@example.com" },
 
     };
+    public Customer UpdateCustomerEmail(int id, string newEmail)
+    {
+        var customer = _customers.FirstOrDefault(c => c.Id == id);
+        if (customer != null)
+        {
+            customer.Email = newEmail;
+        }
+        return customer;
+    }
 
     public Customer GetCustomerById(int id)
     {
